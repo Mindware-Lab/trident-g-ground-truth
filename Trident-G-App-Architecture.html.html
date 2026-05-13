@@ -1,0 +1,231 @@
+
+<style>
+.arch { padding: 16px 0 8px; }
+.sec-label { font-size: 11px; font-weight: 500; letter-spacing: 0.07em; color: var(--color-text-tertiary); margin: 0 0 8px; }
+.core-box { border: 1px dashed var(--color-border-secondary); border-radius: var(--border-radius-lg); padding: 12px 12px 10px; margin-bottom: 20px; }
+.core-title { font-size: 10px; font-weight: 500; color: var(--color-text-tertiary); margin-bottom: 10px; letter-spacing: 0.05em; }
+.mod-grid { display: flex; gap: 8px; flex-wrap: wrap; }
+.mod-tile { flex: 1 1 150px; border-radius: var(--border-radius-md); padding: 9px 10px; border-width: 1px; border-style: solid; }
+.mod-letter { display: inline-block; font-size: 13px; font-weight: 500; padding: 1px 7px; border-radius: 4px; margin-bottom: 6px; }
+.mod-tile .mn { font-size: 12px; font-weight: 500; line-height: 1.3; margin-bottom: 4px; }
+.mod-tile .ms { font-size: 11px; line-height: 1.45; }
+.mod-tile.future { border-style: dashed; }
+
+.tz { background:#E1F5EE; border-color:#0F6E56; }
+.tz .mod-letter { background:#0F6E56; color:#E1F5EE; }
+.tz .mn { color:#085041; } .tz .ms { color:#0F6E56; }
+
+.th2 { background:#FAEEDA; border-color:#854F0B; }
+.th2 .mod-letter { background:#854F0B; color:#FAEEDA; }
+.th2 .mn { color:#633806; } .th2 .ms { color:#854F0B; }
+
+.twg { background:#EEEDFE; border-color:#534AB7; }
+.twg .mod-letter { background:#534AB7; color:#EEEDFE; }
+.twg .mn { color:#3C3489; } .twg .ms { color:#534AB7; }
+
+.tps { background:#EAF1FF; border-color:#295EA8; }
+.tps .mod-letter { background:#295EA8; color:#EAF1FF; }
+.tps .mn { color:#1B467E; } .tps .ms { color:#295EA8; }
+
+.tr { background:#FAECE7; border-color:#993C1D; }
+.tr .mod-letter { background:#993C1D; color:#FAECE7; }
+.tr .mn { color:#712B13; } .tr .ms { color:#993C1D; }
+
+@media(prefers-color-scheme:dark){
+  .tz { background:#04342C; border-color:#1D9E75; }
+  .tz .mod-letter { background:#1D9E75; color:#04342C; }
+  .tz .mn { color:#9FE1CB; } .tz .ms { color:#5DCAA5; }
+
+  .th2 { background:#412402; border-color:#EF9F27; }
+  .th2 .mod-letter { background:#EF9F27; color:#412402; }
+  .th2 .mn { color:#FAC775; } .th2 .ms { color:#EF9F27; }
+
+  .twg { background:#26215C; border-color:#7F77DD; }
+  .twg .mod-letter { background:#7F77DD; color:#26215C; }
+  .twg .mn { color:#CECBF6; } .twg .ms { color:#AFA9EC; }
+
+  .tps { background:#092746; border-color:#5D9BF2; }
+  .tps .mod-letter { background:#5D9BF2; color:#092746; }
+  .tps .mn { color:#C7DCFF; } .tps .ms { color:#98C0FA; }
+
+  .tr { background:#4A1B0C; border-color:#D85A30; }
+  .tr .mod-letter { background:#D85A30; color:#4A1B0C; }
+  .tr .mn { color:#F5C4B3; } .tr .ms { color:#F0997B; }
+}
+
+.app-row { display:flex; align-items:center; padding:10px 12px; border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-md); margin-bottom:7px; gap:10px; cursor:pointer; transition:background 0.15s; }
+.app-row:hover { background:var(--color-background-secondary); }
+.app-row.joint { border-left:3px solid #7F77DD; padding-left:10px; }
+.app-row.licence { border-left:3px solid #295EA8; padding-left:10px; }
+.app-row.future-row { opacity:0.68; border-style:dashed; }
+.app-info { flex:1; min-width:0; }
+.app-name { font-size:13px; font-weight:500; color:var(--color-text-primary); }
+.app-meta { font-size:11px; color:var(--color-text-tertiary); margin-top:2px; line-height:1.45; }
+.tag-row { display:flex; gap:4px; align-items:center; flex-shrink:0; flex-wrap:wrap; justify-content:flex-end; max-width:210px; }
+.tag { font-size:10px; font-weight:500; padding:2px 6px; border-radius:3px; white-space:nowrap; }
+.tag.z { background:#E1F5EE; color:#085041; }
+.tag.h { background:#FAEEDA; color:#633806; }
+.tag.w { background:#EEEDFE; color:#3C3489; }
+.tag.p { background:#EAF1FF; color:#1B467E; }
+.tag.r { background:#FAECE7; color:#712B13; }
+@media(prefers-color-scheme:dark){
+  .tag.z{background:#04342C;color:#9FE1CB;}
+  .tag.h{background:#412402;color:#FAC775;}
+  .tag.w{background:#26215C;color:#CECBF6;}
+  .tag.p{background:#092746;color:#C7DCFF;}
+  .tag.r{background:#4A1B0C;color:#F5C4B3;}
+}
+.owner-tag { font-size:10px; padding:2px 7px; border-radius:3px; border:0.5px solid var(--color-border-tertiary); color:var(--color-text-secondary); white-space:nowrap; flex-shrink:0; }
+.owner-tag.joint { background:#EEEDFE; border-color:#7F77DD; color:#3C3489; }
+.owner-tag.licence { background:#EAF1FF; border-color:#295EA8; color:#1B467E; }
+@media(prefers-color-scheme:dark){
+  .owner-tag.joint{background:#26215C;color:#CECBF6;border-color:#7F77DD;}
+  .owner-tag.licence{background:#092746;color:#C7DCFF;border-color:#5D9BF2;}
+}
+.brand-pill { font-size:10px; padding:2px 7px; border-radius:3px; background:var(--color-background-secondary); color:var(--color-text-secondary); white-space:nowrap; flex-shrink:0; }
+.divider { border:none; border-top:0.5px solid var(--color-border-tertiary); margin:16px 0 14px; }
+.footnote { font-size:11px; color:var(--color-text-tertiary); margin-top:10px; line-height:1.6; }
+.group-label { font-size:11px; color:var(--color-text-tertiary); font-weight:500; margin:12px 0 6px; padding-left:2px; }
+.ip-note { font-size:11px; color:var(--color-text-secondary); line-height:1.55; background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:10px 12px; margin:0 0 16px; }
+</style>
+
+<div class="arch">
+  <div class="core-box">
+    <div class="core-title">Core Protocol IP — HRP/Mark · Abstract protocols reusable across all products</div>
+    <div class="mod-grid">
+      <div class="mod-tile tz">
+        <div class="mod-letter">Z</div>
+        <div class="mn">Zone Track</div>
+        <div class="ms">MFT-M adaptation · cognitive bandwidth · state–niche fit · routing</div>
+      </div>
+      <div class="mod-tile th2">
+        <div class="mod-letter">Z-HRV</div>
+        <div class="mn">Zone–HRV Track</div>
+        <div class="ms">RR intervals · 4-state ANS/stress classifier · breathwork and recovery prompts</div>
+      </div>
+      <div class="mod-tile twg">
+        <div class="mod-letter">WM-G</div>
+        <div class="mn">Working Memory g-Transfer</div>
+        <div class="ms">Variable abstraction · associative/relational n-back · WM/SR inference</div>
+      </div>
+      <div class="mod-tile tps">
+        <div class="mod-letter">PS</div>
+        <div class="mn">Problem Space Inference</div>
+        <div class="ms">Tatham-style puzzles · constraint search · efficient solution paths</div>
+      </div>
+      <div class="mod-tile tr">
+        <div class="mod-letter">R</div>
+        <div class="mn">Appraisal Space Inference</div>
+        <div class="ms">Affective problem spaces · threat models · probes · recovery updates</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-label">Business / IP structure</div>
+  <p class="ip-note">Protocol IP = the reusable abstract methods, schemas, scoring logic, routing logic, claims boundaries and validation model. App / product IP = brand, wrapper, market-specific content, UI, datasets, customer lists, partner channels and implementation-specific adaptations. Joint or licensed rows use HRP/Mark protocol IP under agreed commercial terms unless a separate assignment says otherwise.</p>
+
+  <div class="sec-label">App products and brand homes</div>
+
+  <div class="group-label">iqmindware.com — adaptive intelligence and cognitive performance track (HRP)</div>
+
+  <div class="app-row" onclick="sendPrompt('Tell me more about Zone Track / Zone Coach')">
+    <div class="app-info">
+      <div class="app-name">Zone Track / Zone Coach</div>
+      <div class="app-meta">Cognitive readiness gate · MFT-M adaptation · cognitive bandwidth · state/niche routing · standalone or pre-session check</div>
+    </div>
+    <div class="tag-row"><span class="tag z">Z</span></div>
+    <div class="brand-pill">iqmindware.com</div>
+    <div class="owner-tag">HRP</div>
+  </div>
+
+  <div class="app-row" onclick="sendPrompt('Tell me more about IQ Coach')">
+    <div class="app-info">
+      <div class="app-name">IQ Coach</div>
+      <div class="app-meta">Adaptive intelligence training · WM-G plus Problem Space Inference · wrapper transfer · missions · consumer + B2B corporate</div>
+    </div>
+    <div class="tag-row"><span class="tag z">Z</span><span class="tag w">WM-G</span><span class="tag p">PS</span></div>
+    <div class="brand-pill">iqmindware.com</div>
+    <div class="owner-tag">HRP</div>
+  </div>
+
+  <div class="app-row" onclick="sendPrompt('Tell me more about the G Tracker / Proof layer')">
+    <div class="app-info">
+      <div class="app-name">G Tracker / Proof Layer</div>
+      <div class="app-meta">Assessment, telemetry and claims-ladder evidence · pre/post tests · transfer score · delayed probes · app usage data</div>
+    </div>
+    <div class="tag-row"><span class="tag z">Z</span><span class="tag w">WM-G</span><span class="tag p">PS</span><span class="tag r">R</span></div>
+    <div class="brand-pill">iqmindware.com</div>
+    <div class="owner-tag">HRP</div>
+  </div>
+
+  <hr class="divider">
+  <div class="group-label">eqmindware.com — cognitive resilience and applied wellbeing track (HRP)</div>
+
+  <div class="app-row" onclick="sendPrompt('Tell me more about Resilience Coach')">
+    <div class="app-info">
+      <div class="app-name">Resilience Coach</div>
+      <div class="app-meta">Appraisal Space Inference · threat-schema updating · real-world probes · Z/Z-HRV readiness · light WM-G support</div>
+    </div>
+    <div class="tag-row"><span class="tag z">Z</span><span class="tag h">Z-HRV</span><span class="tag r">R</span><span class="tag w">WM-G</span></div>
+    <div class="brand-pill">eqmindware.com</div>
+    <div class="owner-tag">HRP</div>
+  </div>
+
+  <hr class="divider">
+  <div class="group-label">Joint / partner tracks — app-specific commercial IP, protocol IP reserved/licensed</div>
+
+  <div class="app-row joint" onclick="sendPrompt('Tell me more about the Cognitive Longevity app')">
+    <div class="app-info">
+      <div class="app-name">Cognitive Longevity Coach</div>
+      <div class="app-meta">Healthy ageing support · mind-body readiness · WM-G challenge · PS puzzles · confidence/lifestyle missions · global 45–70 + B2B clinics</div>
+    </div>
+    <div class="tag-row"><span class="tag h">Z-HRV</span><span class="tag w">WM-G</span><span class="tag p">PS</span><span class="tag r">R</span></div>
+    <div class="brand-pill">new brand / site</div>
+    <div class="owner-tag joint">Joint app IP</div>
+  </div>
+
+  <div class="app-row joint" onclick="sendPrompt('Tell me more about the Zone-HRV mind-body app')">
+    <div class="app-info">
+      <div class="app-name">Zone–HRV Coach / Flow-Zone</div>
+      <div class="app-meta">Mind–body readiness · MFT-M + RR interval classifier · breathwork, meditation, recovery and lifestyle prompts · clinics + corporate</div>
+    </div>
+    <div class="tag-row"><span class="tag z">Z</span><span class="tag h">Z-HRV</span></div>
+    <div class="brand-pill">new brand / site</div>
+    <div class="owner-tag joint">Joint app IP</div>
+  </div>
+
+  <hr class="divider">
+  <div class="group-label">Potential specialised / regulated-adjacent apps (partnership, licensing and safety pathway TBD)</div>
+
+  <div class="app-row future-row licence" onclick="sendPrompt('Tell me more about Pain Support Coach')">
+    <div class="app-info">
+      <div class="app-name">Pain Support Coach</div>
+      <div class="app-meta">Pain self-management support · Z-HRV + Appraisal Space Inference · graded prediction tests · clinical input and trials required before stronger claims</div>
+    </div>
+    <div class="tag-row"><span class="tag h">Z-HRV</span><span class="tag r">R</span><span class="tag w">WM-G lite</span></div>
+    <div class="brand-pill">TBD</div>
+    <div class="owner-tag licence">Licence / TBD</div>
+  </div>
+
+  <div class="app-row future-row licence" onclick="sendPrompt('Tell me more about Exam Anxiety / Performance Anxiety Coach')">
+    <div class="app-info">
+      <div class="app-name">Exam / Sport Performance Anxiety Coach</div>
+      <div class="app-meta">Pressure readiness · arousal routing · performance routines · WM-G under load · PS first-move training · R for threat/appraisal updates</div>
+    </div>
+    <div class="tag-row"><span class="tag z">Z</span><span class="tag h">Z-HRV</span><span class="tag w">WM-G</span><span class="tag p">PS</span><span class="tag r">R</span></div>
+    <div class="brand-pill">TBD</div>
+    <div class="owner-tag licence">Licence / TBD</div>
+  </div>
+
+  <div class="app-row future-row licence" onclick="sendPrompt('Tell me more about Corporate Performance / Resilience Coach')">
+    <div class="app-info">
+      <div class="app-name">Corporate Performance / Resilience Coach</div>
+      <div class="app-meta">B2B readiness, pressure, reasoning and resilience programme · modular Z/Z-HRV/WM-G/PS/R deployment by cohort need</div>
+    </div>
+    <div class="tag-row"><span class="tag z">Z</span><span class="tag h">Z-HRV</span><span class="tag w">WM-G</span><span class="tag p">PS</span><span class="tag r">R</span></div>
+    <div class="brand-pill">TBD / white-label</div>
+    <div class="owner-tag licence">Licence / TBD</div>
+  </div>
+
+  <p class="footnote">Z is the cognitive readiness gate. Z-HRV is the mind–body extension, not a medical diagnostic system. WM-G and PS form the main IQ Coach / adaptive intelligence stack. R is the direct cognitive-resilience protocol. PS should not be treated as the direct pain intervention when PS means classic Tatham-style puzzle training; pain support uses R + Z-HRV, with PS only as optional general cognitive-flexibility support.<br><br>Joint / partner rows indicate app-specific commercial rights or possible revenue/equity arrangements. Core protocol IP remains HRP/Mark unless separately assigned. Clinical or medical claims require separate safety screening, professional input, validation and regulatory review.</p>
+</div>
