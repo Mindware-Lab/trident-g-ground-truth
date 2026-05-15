@@ -1,6 +1,6 @@
-# Horizontal far-transfer principle in the Trident-G protocol
+# Trident G Far Transfer Protocol
 
-## 1. Core principle
+## 1. Horizontal principle
 
 The horizontal far-transfer principle is:
 
@@ -326,9 +326,9 @@ Without delay, the protocol risks measuring short-term adaptation rather than po
 
 ---
 
-## 8. Compact formulation
+## 8. Summary
 
-The horizontal principle can be written as:
+The horizontal principle can be summarised as:
 
 > **Horizontal transfer trains and tests whether a relational invariant survives surface change. During early learning, speed, discrimination and signal-quality pressure refine efficiency within a wrapper. When learning begins to flatten, the protocol changes the wrapper while preserving the invariant, producing a controlled perturbation. The resulting swap cost and recovery curve indicate whether the learner had acquired a surface-specific policy or a deeper portable representation. Repeated successful recovery across wrappers, boundary cases and delays is treated as evidence for slow schematic Gc rather than thin automation.**
 
@@ -347,9 +347,7 @@ the relation survives the surface change.
 
 ---
 
-## 9. Suggested evidence-grounded wording
-
-For a report or protocol document, I would write:
+## 9. Evidence-brounded summary
 
 > The horizontal-transfer principle is grounded in the distinction between surface-specific skill improvement and portable relational abstraction. Perceptual-learning research shows that training can be highly specific to trained stimulus features, but that transfer improves under some forms of structured variation and rule-based reweighting (Ahissar & Hochstein, 1997; Yu, 2011; Zhang et al., 2010). Learning-curve research suggests that individual skill acquisition can include piecewise phases and transition points rather than one smooth curve, supporting the idea of timed perturbations near local asymptote (Donner & Hardy, 2015). More broadly, desirable-difficulty and contextual-interference findings suggest that challenges which reduce immediate performance can support later retention or transfer when they are well calibrated (Bjork & Bjork, 2011; Magill & Hall, 1990). In Trident-G, wrapper swaps operationalise this idea: when the learner begins to compile a surface-specific strategy, the task changes surface while preserving the underlying relation. The resulting swap cost, recovery slope and delayed survival are treated as evidence about whether the learner has acquired a portable relational invariant or only a thin surface policy.
 
@@ -374,10 +372,8 @@ Zhang, J.-Y., Zhang, G.-L., Xiao, L.-Q., Klein, S. A., Levi, D. M., & Yu, C. (20
 Zhang, X.-Y., & Tang, D.-L. (2025). Heavy-tailed update distributions arise from information-driven self-organisation in nonequilibrium learning. *Proceedings of the National Academy of Sciences, 122*(51), Article e2523012122. [https://doi.org/10.1073/pnas.2523012122](https://doi.org/10.1073/pnas.2523012122)
 
 ---
- 
-# Vertical far-transfer principle in the Trident-G protocol
 
-## 1. Core principle
+## 1. Verticle Principle
 
 The vertical far-transfer principle is:
 
