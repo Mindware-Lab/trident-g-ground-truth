@@ -1,4 +1,4 @@
-# Trident G Far Transfer Protocol
+# Trident-G Far Transfer Protocol
 
 ## 1. Horizontal principle
 
@@ -6,7 +6,9 @@ The horizontal far-transfer principle is:
 
 > **A skill has not transferred horizontally until the same relational invariant can be recovered across changed surfaces, modalities, boundary cases and delayed re-checks.**
 
-In standard cognitive training, performance often improves because the learner compiles a surface-specific routine. This may be useful, but it is not yet genuine far transfer. In Trident-G terms, this is **fast Gc** or thin automation: efficient, task-bound, and vulnerable to collapse when the surface changes. The horizontal-transfer protocol tries to prevent this by changing the wrapper at the point where the learner is beginning to overfit the current format.
+In standard cognitive training, performance often improves because the learner compiles a surface-specific routine. This may be useful, but it is not yet genuine far transfer. In Trident-G terms, this is **fast Gc** or thin automation: efficient, task-bound, and vulnerable to collapse when the surface changes.
+
+The horizontal-transfer protocol tries to prevent this by changing the wrapper at the point where the learner is beginning to overfit the current format.
 
 The key mechanism is:
 
@@ -24,9 +26,10 @@ The Trident-G claim is that this controlled re-entry is a small-scale bifurcatio
 This should be framed as a **design principle and testable hypothesis**, not as an already proven far-transfer mechanism.
 
 ---
-## Wrappers - Definition 
 
-We cam define  **wrapper**  as the **surface container through which the same underlying relation is expressed**.
+## 2. Wrappers — definition
+
+We can define **wrapper** as the **surface container through which the same underlying relation is expressed**.
 
 A wrapper can be:
 
@@ -39,7 +42,9 @@ A wrapper can be:
 | **Semantic/context wrapper** | Same control policy, different real-world meaning                 | puzzle “blocked path” → work “blocked project path”       |
 | **Niche wrapper**            | Same policy in a real environment with live cues and consequences | app task → real-world mission                             |
 
-So, in the horizontal-transfer section, **wrapper** should mean the surface format that carries the invariant, not the invariant itself. This matches your Trident-G summary, where horizontal transfer is defined as the same relational invariant surviving surface variation, changed wrappers, boundary cases, novel contexts and delayed re-checks.  It also fits the perceptual-learning literature, where transfer is often limited by trained features, locations or task conditions, unless training design promotes broader generalisation (Fahle, 2005; Yu, 2011; Zhang et al., 2010).
+So, in the horizontal-transfer section, **wrapper** should mean the surface format that carries the invariant, not the invariant itself.
+
+This matches the Trident-G summary, where horizontal transfer is defined as the same relational invariant surviving surface variation, changed wrappers, boundary cases, novel contexts and delayed re-checks. It also fits the perceptual-learning literature, where transfer is often limited by trained features, locations or task conditions unless training design promotes broader generalisation. Yu’s review notes the classic location- and orientation-specificity problem, while Zhang et al. propose a rule-based account in which transfer depends partly on whether higher-level decision rules can connect to new inputs. ([PMC][1])
 
 Or even shorter:
 
@@ -47,9 +52,9 @@ Or even shorter:
 
 ---
 
-## 2. Entropy–mutual information interpretation
+## 3. Entropy–mutual information interpretation
 
-Zhang and Tang’s recent work models learning as a nonequilibrium process shaped by a balance between maximum-entropy exploration and mutual-information constraint. In their neural-network account, productive learning involves neither unconstrained exploration nor rigid optimisation, but information-driven self-organisation in which relevant updates are constrained by task information while still allowing broad search (Zhang & Tang, 2025). 
+Zhang and Tang’s recent work models learning as a nonequilibrium process shaped by a balance between maximum-entropy exploration and mutual-information constraint. In their neural-network account, productive learning involves neither unconstrained exploration nor rigid optimisation, but information-driven self-organisation in which relevant updates are constrained by task information while still allowing broad search. ([PNAS][2])
 
 In Trident-G terms:
 
@@ -75,11 +80,11 @@ The learner must then use mutual-information constraint to recover what still ma
 
 ---
 
-## 3. Piecewise learning curves and breakpoint timing
+## 4. Piecewise learning curves and breakpoint timing
 
 The best moment for a wrapper swap is not the very beginning, and not long after complete automation. It is around **local flattening**, when improvement within the current wrapper is slowing and the learner is beginning to consolidate a surface-specific strategy.
 
-Donner and Hardy (2015) found that individual learning curves are often better described by **piecewise power laws** than by a single smooth curve, implying that learning can contain phase shifts, transitions or local reorganisations rather than one continuous improvement process. 
+Donner and Hardy found that individual learning curves are often better described by **piecewise power laws** than by a single smooth curve, implying that learning can contain phase shifts, transitions or local reorganisations rather than one continuous improvement process. ([PMC][3])
 
 This supports the Trident-G idea of watching for a behavioural signature such as:
 
@@ -91,8 +96,8 @@ local improvement
 → recovery
 → better portability
 ```
-<img width="782" height="823" alt="image" src="https://github.com/user-attachments/assets/8953dd77-5c27-49ae-be26-ed8b91a05bbf" />
 
+<img width="782" height="823" alt="image" src="https://github.com/user-attachments/assets/8953dd77-5c27-49ae-be26-ed8b91a05bbf" />
 
 The wrapper swap should be timed near the flattening point because:
 
@@ -106,15 +111,102 @@ So the protocol should monitor the learning curve and trigger a wrapper swap whe
 
 ---
 
-## 4. Efficiency training versus invariance training
+## 5. Variable construction, evidence-quality perturbation and invariance training
 
-Your distinction is useful:
+The original distinction remains useful, but it should be sharpened:
 
-> **Speed/discrimination/contrast are mainly efficiency-training levers. Wrapper or modality swaps are mainly depth/invariance-training levers.**
+> **Speed, discrimination gap, contrast and coherence are mainly evidence-quality / efficiency / attention-control levers. Wrapper and modality swaps are mainly depth / invariance levers.**
 
-I would phrase it like this.
+The revision is important because fine perceptual-threshold training can easily become surface-specific. Ahissar and Hochstein showed that more difficult perceptual-learning conditions can become more specific to trained orientation and position, while easier conditions generalise more. ([Weizmann Institute of Science][4]) Jeter et al. similarly found that specificity increased after extensive orientation-discrimination training, while earlier learning showed more transfer to a new location and opposite orientation. ([ScienceDirect][5])
 
-### Efficiency / precision training
+So contrast and discrimination should not be treated as the main route to far transfer. They are better used in two more limited ways.
+
+### 5.1 Variable construction
+
+Early in learning, discrimination helps the learner identify the relevant variable:
+
+```text
+which feature changed?
+what matters?
+what is noise?
+where is the boundary?
+what relation should be tracked?
+```
+
+This supports **state-space construction**. It prepares the variables over which WM binding, SR-style inference and later wrapper transfer can operate.
+
+In Trident-G terms:
+
+```text
+surface cue
+→ variable abstraction
+→ WM binding
+→ SR-style inference
+→ boundary test
+→ portable schema
+```
+
+The danger is:
+
+```text
+surface cue
+→ premature perceptual shortcut
+→ brittle surface policy
+```
+
+So discrimination is valuable, but only when it helps carve the right variables rather than overtraining the current perceptual surface.
+
+### 5.2 Evidence-quality and attention-quality perturbation
+
+After the relation is already established, lower contrast, lower coherence, shorter exposure or mild speed pressure can be used as controlled perturbations.
+
+Their role is not to train the minimum perceivable threshold as an endpoint. Their role is to test whether the learner can still recover the same relation when sensory evidence is weaker, less redundant or more demanding.
+
+The core question becomes:
+
+```text
+Can the learner maintain high-quality attentional sampling
+and recover the same relational invariant
+under lower-quality evidence?
+```
+
+This is an **attention-quality challenge**, not a perceptual-threshold endpoint.
+
+The attention literature supports this framing. Nguyen, Watanabe and Andersen found that both exogenous and endogenous attention facilitated task-relevant visual perceptual learning and transfer to an untrained feature. ([PLOS][6]) Roberts and Carrasco similarly found that exogenous attention helped generalise perceptual learning beyond trained spatial locations in adults with amblyopia. ([ScienceDirect][7])
+
+So the stronger Trident-G interpretation is:
+
+```text
+low contrast / low coherence
+= controlled evidence-quality perturbation
+
+not:
+
+low contrast threshold
+= far-transfer mechanism
+```
+
+### 5.3 Closed-loop adaptation rule
+
+The system should adapt difficulty based on the **error signature**, not just raw accuracy.
+
+A simple rule is:
+
+| Error pattern                               | Interpretation                   | Adaptation                                                            |
+| ------------------------------------------- | -------------------------------- | --------------------------------------------------------------------- |
+| Stable high accuracy                        | relation is established          | reduce gap, add mild speed pressure, or prepare wrapper swap          |
+| Accuracy drop with slow RT / lapses         | attention-quality or state drift | use brief lower-contrast/coherence vigilance probe, then rebound test |
+| Accuracy drop with relation-specific errors | invariant not yet stable         | widen gap, simplify relation, repeat examples                         |
+| Accuracy drop with fast impulsive errors    | response-control issue           | slow response window, emphasise accuracy, reduce speed pressure       |
+| Sustained poor accuracy                     | task/state mismatch              | reset, rest, or Zone re-check                                         |
+
+So the key design rule is:
+
+> **Do not make the task harder simply because accuracy drops. Make it harder only when there is evidence that the learner already owns the relation and the current failure is likely attentional drift rather than relational confusion.**
+
+This makes the closed-loop logic more precise. Lower contrast or lower coherence can be useful after stable performance, but it should not be the default response to poor accuracy.
+
+### 5.4 Efficiency / robustness training
 
 These levers make the current relation more accurate, faster and more robust within a known representational space:
 
@@ -133,13 +225,38 @@ They ask:
 Can you run the same operation more efficiently?
 Can you preserve accuracy under less evidence or less time?
 Can you resist lures under pressure?
+Can you maintain attention quality when evidence is degraded?
 ```
 
-This fits perceptual-learning evidence. Ahissar and Hochstein (1997) showed that easier perceptual learning conditions generalise more, whereas harder conditions become more specific to trained orientation and position. So in the protocol, fine discrimination should not be introduced too early. It is best used after the learner has the general relation, because very hard early discrimination may over-specialise learning.
+Contrast and coherence therefore belong mainly in the **robustness** lane. They test whether the relation survives poorer evidence.
 
-### Depth / invariance training
+They do not, by themselves, demonstrate far transfer.
 
-Wrapper swaps change the surface while preserving the relation:
+### 5.5 Visual-function lane versus far-transfer lane
+
+Perceptual-threshold training can still be valuable, especially in a visual-performance or cognitive-longevity context. DeLoss, Watanabe and Andersen trained older adults on an orientation-discrimination task with variable contrast and noise, reporting improved contrast sensitivity and transfer to an untrained orientation. ([Sage Journals][8]) A more recent study by Tang, Liang and Zhou reported that perceptual learning improved spatial contrast sensitivity and visual acuity in older adults. ([Frontiers][9])
+
+But this should be framed as:
+
+```text
+visual function / perceptual robustness training
+```
+
+not:
+
+```text
+general far-transfer training
+```
+
+In Trident-G terms, perceptual-threshold work may improve the quality of evidence entering the system. It does not, by itself, prove that a relational invariant has become portable across wrappers, contexts, delays or niches.
+
+---
+
+## 6. Depth / invariance training
+
+Wrapper swaps change the surface while preserving the relation.
+
+Examples:
 
 ```text
 Gabor orientation change
@@ -163,27 +280,32 @@ Can you survive the surface change?
 Can you recover faster on later swaps?
 ```
 
-This is the stronger horizontal-transfer test. The Seeing Patterns specification uses exactly this logic: tuning/honing improves precision, reconfiguration changes dimension or rule, portability validation tests the same relation across Gabor, flow and conjunction variants, and consolidation supports slow gist extraction. 
+This is the stronger horizontal-transfer test.
 
-So the distinction works well:
+The Seeing Patterns specification uses exactly this logic: tuning/honing improves precision, reconfiguration changes dimension or rule, portability validation tests the same relation across Gabor, flow and conjunction variants, and consolidation supports slow gist extraction.
 
-| Protocol lever           | Main function       | Transfer meaning                                 |
-| ------------------------ | ------------------- | ------------------------------------------------ |
-| Smaller gap              | precision           | sharper evidence extraction                      |
-| Faster timing            | efficiency          | faster relation operation                        |
-| Lower contrast/coherence | robustness          | relation survives poorer evidence                |
-| Higher n / lure pressure | workspace stability | relation survives interference                   |
-| Wrapper swap             | abstraction         | relation survives surface change                 |
-| Modality swap            | invariance          | relation survives representational medium change |
-| Delayed re-check         | consolidation       | relation survives time                           |
+So the distinction is:
+
+| Protocol lever              | Main function                 | Transfer meaning                                 |
+| --------------------------- | ----------------------------- | ------------------------------------------------ |
+| Smaller gap                 | precision                     | sharper evidence extraction                      |
+| Faster timing               | efficiency                    | faster relation operation                        |
+| Lower contrast/coherence    | evidence-quality perturbation | relation survives poorer evidence                |
+| Higher n / lure pressure    | workspace stability           | relation survives interference                   |
+| Closed-loop vigilance probe | attention-quality test        | relation survives temporary state drift          |
+| Wrapper swap                | abstraction                   | relation survives surface change                 |
+| Modality swap               | invariance                    | relation survives representational medium change |
+| Delayed re-check            | consolidation                 | relation survives time                           |
+
+The main transfer claim should attach to wrapper swaps, modality swaps, delayed re-checks and real-world/niche probes, not to threshold improvement alone.
 
 ---
 
-## 5. Why random mixing is not enough
+## 7. Why random mixing is not enough
 
-There is evidence that variable practice, interleaving and contextual interference can improve retention and transfer, but these effects are not a licence to randomise everything. The contextual-interference literature shows a common pattern: harder, more variable practice can impair immediate performance while improving later retention or transfer, but the effect is heterogeneous and depends on task, learner and schedule (Magill & Hall, 1990; Czyż, 2024). 
+There is evidence that variable practice, interleaving and contextual interference can improve retention and transfer, but these effects are not a licence to randomise everything. The contextual-interference literature shows a common pattern: harder, more variable practice can impair immediate performance while improving later retention or transfer, but the effect is heterogeneous and depends on task, learner and schedule. Czyż’s 2024 systematic review and meta-analysis emphasises both the long-standing promise and the heterogeneity of contextual-interference effects. ([Frontiers][10])
 
-The “desirable difficulties” literature makes a similar point: conditions that slow apparent learning can improve long-term retention and transfer, but only when the challenge is desirable rather than overwhelming (Bjork & Bjork, 2011).
+The “desirable difficulties” literature makes a similar point: conditions that slow apparent learning can improve long-term retention and transfer, but only when the challenge is desirable rather than overwhelming.
 
 For Trident-G, the design implication is:
 
@@ -196,11 +318,13 @@ The surface should change only after the learner has enough grip on the target r
 
 ---
 
-## 6. Supporting evidence from perceptual-learning specificity and transfer
+## 8. Supporting evidence from perceptual-learning specificity and transfer
 
-The horizontal principle is also supported indirectly by the perceptual-learning literature. Perceptual learning often shows specificity to trained features, locations or orientations. Yu (2011) notes that visual perceptual learning has classically been treated as location- and orientation-specific, but also reviews work showing that procedures such as double training and task-plus-exposure can enable transfer to new locations or orientations. ([PMC][6])
+The horizontal principle is supported indirectly by the perceptual-learning literature.
 
-Zhang et al. (2010) proposed a rule-based account of perceptual-learning transfer in which a higher-level decision unit learns how to reweight perceptual inputs. This is very compatible with the Trident-G idea that what transfers is not the raw sensory tuning alone, but a higher-level rule or control policy over the relevant variables. ([PubMed][7])
+Perceptual learning often shows specificity to trained features, locations or orientations. Yu notes that visual perceptual learning has classically been treated as location- and orientation-specific, but also reviews work showing that procedures such as double training and task-plus-exposure can enable transfer to new locations or orientations. ([PMC][1])
+
+Zhang et al. proposed a rule-based account of perceptual-learning transfer in which a higher-level decision unit learns how to reweight perceptual inputs. This is very compatible with the Trident-G idea that what transfers is not raw sensory tuning alone, but a higher-level rule or control policy over the relevant variables. ([PubMed][11])
 
 So the evidence pattern is:
 
@@ -216,9 +340,9 @@ This is a useful mainstream translation of the Trident-G horizontal principle.
 
 ---
 
-## 7. Protocol summary: horizontal transfer cycle
+## 9. Protocol summary: horizontal transfer cycle
 
-A clean protocol version would be:
+A clean protocol version is:
 
 ### Phase 1: Establish the invariant
 
@@ -237,11 +361,16 @@ Goal:
 relation understood
 accuracy stable
 lure errors manageable
+basic variable identified
 ```
+
+The target here is not perceptual threshold. The target is variable abstraction and relation recovery.
+
+---
 
 ### Phase 2: Hone efficiency within the wrapper
 
-Increase speed, reduce gap size, add mild lures or reduce signal quality.
+Increase speed, reduce gap size, add mild lures or mildly reduce signal quality.
 
 Goal:
 
@@ -249,11 +378,50 @@ Goal:
 faster relation extraction
 more precise discrimination
 better stability under pressure
+more reliable evidence sampling
 ```
 
 This is mutual-information-dominant refinement: the learner is narrowing onto the relevant structure and improving efficiency.
 
-### Phase 3: Detect flattening
+But perceptual difficulty should remain secondary. It should support the relation, not replace it.
+
+---
+
+### Phase 3: Add brief evidence-quality perturbations
+
+Once the relation is stable, introduce short, controlled perturbations such as:
+
+```text
+slightly lower contrast
+slightly lower motion coherence
+shorter presentation
+mild speed pressure
+mild lure increase
+```
+
+Goal:
+
+```text
+test whether the same relation survives poorer evidence
+test attention-quality under controlled stress
+detect state drift
+avoid pure comfort-zone performance
+```
+
+This phase should be closed-loop. It should respond to error signatures.
+
+```text
+stable relation + lapse-like errors
+→ brief evidence-quality challenge
+→ return to normal signal
+→ rebound check
+```
+
+If errors are relation-specific, do not lower contrast or increase difficulty. Instead, simplify the relation or widen the gap.
+
+---
+
+### Phase 4: Detect flattening
 
 Monitor for reduced learning-rate or local asymptote:
 
@@ -262,6 +430,7 @@ accuracy no longer improves
 RT stabilises
 gap threshold stabilises
 same error pattern repeats
+attention-quality probes show little new information
 ```
 
 Goal:
@@ -270,7 +439,11 @@ Goal:
 avoid over-banking thin fast Gc
 ```
 
-### Phase 4: Wrapper swap
+At this point, more threshold refinement may simply deepen surface skill. The protocol should prepare a wrapper swap instead.
+
+---
+
+### Phase 5: Wrapper swap
 
 Change the surface but preserve the relational invariant.
 
@@ -289,9 +462,14 @@ Goal:
 ```text
 force re-entry into exploratory search
 test whether invariant survives
+prevent overfitting to the original wrapper
 ```
 
-### Phase 5: Measure swap cost and recovery
+The wrapper swap is the main horizontal-transfer test.
+
+---
+
+### Phase 6: Measure swap cost and recovery
 
 The key metric is not just post-swap accuracy. It is:
 
@@ -300,19 +478,26 @@ swap cost
 recovery slope
 final recovered performance
 lure pattern after swap
+error type after swap
 delayed survival
 ```
 
 Interpretation:
 
-| Result                               | Interpretation                        |
-| ------------------------------------ | ------------------------------------- |
-| Low swap cost                        | relation may already be abstracted    |
-| High cost + fast recovery            | promising transfer-learning signature |
-| High cost + no recovery              | surface-bound policy                  |
-| Improved recovery across later swaps | growing invariant representation      |
+| Result                                                  | Interpretation                                                  |
+| ------------------------------------------------------- | --------------------------------------------------------------- |
+| Low swap cost                                           | relation may already be abstracted                              |
+| High cost + fast recovery                               | promising transfer-learning signature                           |
+| High cost + no recovery                                 | surface-bound policy                                            |
+| Improved recovery across later swaps                    | growing invariant representation                                |
+| Good low-contrast performance but poor wrapper recovery | perceptual robustness without horizontal transfer               |
+| Good wrapper recovery but poor low-contrast performance | invariant may transfer, but evidence-quality robustness is weak |
 
-### Phase 6: Delayed re-check
+This distinction is important. A learner may become very good at degraded evidence in one wrapper without transferring the relation. Conversely, a learner may transfer the relation across wrappers but still struggle under poor signal quality. These are different training targets.
+
+---
+
+### Phase 7: Delayed re-check
 
 Re-test later, preferably after sleep or spacing.
 
@@ -324,13 +509,52 @@ test slow schematic Gc candidate
 
 Without delay, the protocol risks measuring short-term adaptation rather than portable structure.
 
+A delayed probe should include:
+
+```text
+same wrapper re-check
+changed wrapper re-check
+boundary case
+optional low-contrast / low-coherence robustness probe
+```
+
 ---
 
-## 8. Summary
+## 10. Updated compact protocol logic
+
+The revised horizontal-transfer protocol can be summarised like this:
+
+```text
+1. Establish relation at clear signal.
+2. Use discrimination to construct the relevant variable.
+3. Hone efficiency within the current wrapper.
+4. Add brief evidence-quality perturbations only after stable accuracy.
+5. Detect local flattening before surface-specific automation hardens.
+6. Change wrapper while preserving the invariant.
+7. Measure swap cost, recovery slope and error type.
+8. Re-test after delay.
+9. Treat only delayed cross-wrapper recovery as evidence for slow schematic Gc.
+```
+
+Or more compactly:
+
+```text
+Discrimination builds variables.
+Contrast tests evidence-quality robustness.
+Speed tests throughput.
+Lures test control.
+Wrapper swaps test horizontal transfer.
+Prompts support vertical transfer.
+Delayed probes test slow Gc.
+```
+
+---
+
+## 11. Summary
 
 The horizontal principle can be summarised as:
 
-> **Horizontal transfer trains and tests whether a relational invariant survives surface change. During early learning, speed, discrimination and signal-quality pressure refine efficiency within a wrapper. When learning begins to flatten, the protocol changes the wrapper while preserving the invariant, producing a controlled perturbation. The resulting swap cost and recovery curve indicate whether the learner had acquired a surface-specific policy or a deeper portable representation. Repeated successful recovery across wrappers, boundary cases and delays is treated as evidence for slow schematic Gc rather than thin automation.**
+> **Horizontal transfer trains and tests whether a relational invariant survives surface change. During early learning, discrimination helps construct the relevant variables. During efficiency training, speed, gap reduction and mild signal-quality pressure refine operation within a wrapper. But lower contrast or coherence should be treated as a controlled attention-quality and evidence-quality perturbation, not as the main far-transfer mechanism. When learning begins to flatten, the protocol changes the wrapper while preserving the invariant, producing a controlled perturbation. The resulting swap cost and recovery curve indicate whether the learner had acquired a surface-specific policy or a deeper portable representation. Repeated successful recovery across wrappers, boundary cases and delays is treated as evidence for slow schematic Gc rather than thin automation.**
 
 Even more compactly:
 
@@ -338,18 +562,64 @@ Even more compactly:
 Efficiency training:
 same wrapper, harder evidence.
 
+Evidence-quality perturbation:
+same relation, poorer signal.
+
 Invariance training:
 new wrapper, same relation.
 
 Horizontal transfer:
 the relation survives the surface change.
+
+Slow schematic Gc candidate:
+the relation survives wrapper variation and delayed re-check.
 ```
 
 ---
 
-## 9. Evidence-brounded summary
+## 12. Evidence-grounded summary
 
-> The horizontal-transfer principle is grounded in the distinction between surface-specific skill improvement and portable relational abstraction. Perceptual-learning research shows that training can be highly specific to trained stimulus features, but that transfer improves under some forms of structured variation and rule-based reweighting (Ahissar & Hochstein, 1997; Yu, 2011; Zhang et al., 2010). Learning-curve research suggests that individual skill acquisition can include piecewise phases and transition points rather than one smooth curve, supporting the idea of timed perturbations near local asymptote (Donner & Hardy, 2015). More broadly, desirable-difficulty and contextual-interference findings suggest that challenges which reduce immediate performance can support later retention or transfer when they are well calibrated (Bjork & Bjork, 2011; Magill & Hall, 1990). In Trident-G, wrapper swaps operationalise this idea: when the learner begins to compile a surface-specific strategy, the task changes surface while preserving the underlying relation. The resulting swap cost, recovery slope and delayed survival are treated as evidence about whether the learner has acquired a portable relational invariant or only a thin surface policy.
+> The horizontal-transfer principle is grounded in the distinction between surface-specific skill improvement and portable relational abstraction. Perceptual-learning research shows that training can be highly specific to trained stimulus features, locations or task demands, especially after extensive or high-precision practice. However, transfer can improve under some forms of structured variation, attention-guided learning, exposure-plus-training and rule-based reweighting. Learning-curve research suggests that individual skill acquisition can include piecewise phases and transition points rather than one smooth curve, supporting the idea of timed perturbations near local asymptote. More broadly, desirable-difficulty and contextual-interference findings suggest that challenges which reduce immediate performance can support later retention or transfer when they are well calibrated. In Trident-G, wrapper swaps operationalise this idea: when the learner begins to compile a surface-specific strategy, the task changes surface while preserving the underlying relation. Lower contrast, lower coherence and speed pressure should be used as secondary evidence-quality or attention-quality perturbations, not as the main transfer target. The resulting swap cost, recovery slope and delayed survival are treated as evidence about whether the learner has acquired a portable relational invariant or only a thin surface policy.
+
+---
+
+## 13. Design rule for the app
+
+The app should implement the following rule:
+
+```text
+Do not adapt only on accuracy.
+Adapt on the error signature.
+```
+
+A useful internal controller would be:
+
+```text
+if accuracy_high_and_stable:
+    reduce_gap_or_prepare_wrapper_swap()
+
+elif lapse_pattern_or_slow_rt_drift and relation_previously_stable:
+    run_brief_evidence_quality_probe()
+    return_to_clear_signal()
+    check_rebound()
+
+elif relation_specific_errors:
+    widen_gap()
+    simplify_relation()
+    repeat_variable_construction()
+
+elif fast_impulsive_errors:
+    reduce_speed_pressure()
+    emphasise_accuracy()
+    add_response_delay_if_needed()
+
+elif sustained_poor_accuracy:
+    route_to_reset_or_zone_recheck()
+```
+
+The practical claim boundary should be:
+
+> Contrast and discrimination training may improve perceptual precision, visual robustness and attention quality under degraded evidence, but horizontal far transfer is only supported when the same relational invariant survives wrapper variation, boundary cases and delayed re-checks.
 
 ---
 
@@ -359,17 +629,31 @@ Ahissar, M., & Hochstein, S. (1997). Task difficulty and the specificity of perc
 
 Bjork, E. L., & Bjork, R. A. (2011). Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning. In M. A. Gernsbacher, R. W. Pew, L. M. Hough, & J. R. Pomerantz (Eds.), *Psychology and the real world: Essays illustrating fundamental contributions to society* (pp. 56–64). Worth Publishers.
 
-Czyż, S. H. (2024). The effect of contextual interference on transfer in motor learning: A systematic review and meta-analysis. *Frontiers in Psychology, 15*, Article 1377122. [https://doi.org/10.3389/fpsyg.2024.1377122](https://doi.org/10.3389/fpsyg.2024.1377122)
+Czyż, S. H., Wójcik, A. M., Solarská, P., & Kiper, P. (2024). The effect of contextual interference on transfer in motor learning: A systematic review and meta-analysis. *Frontiers in Psychology, 15*, Article 1377122. [https://doi.org/10.3389/fpsyg.2024.1377122](https://doi.org/10.3389/fpsyg.2024.1377122)
+
+DeLoss, D. J., Watanabe, T., & Andersen, G. J. (2015). Improving vision among older adults: Behavioural training to improve sight. *Psychological Science, 26*(4), 456–466. [https://doi.org/10.1177/0956797614567510](https://doi.org/10.1177/0956797614567510)
 
 Donner, Y., & Hardy, J. L. (2015). Piecewise power laws in individual learning curves. *Psychonomic Bulletin & Review, 22*(5), 1308–1319. [https://doi.org/10.3758/s13423-015-0811-x](https://doi.org/10.3758/s13423-015-0811-x)
 
+Jeter, P. E., Dosher, B. A., Petrov, A., & Lu, Z.-L. (2009). Task precision at transfer determines specificity of perceptual learning. *Journal of Vision, 9*(3), Article 1. [https://doi.org/10.1167/9.3.1](https://doi.org/10.1167/9.3.1)
+
+Jeter, P. E., Dosher, B. A., Liu, S.-H., & Lu, Z.-L. (2010). Specificity of perceptual learning increases with increased training. *Vision Research, 50*(19), 1928–1940. [https://doi.org/10.1016/j.visres.2010.06.016](https://doi.org/10.1016/j.visres.2010.06.016)
+
 Magill, R. A., & Hall, K. G. (1990). A review of the contextual interference effect in motor skill acquisition. *Human Movement Science, 9*(3–5), 241–289. [https://doi.org/10.1016/0167-9457(90)90005-X](https://doi.org/10.1016/0167-9457%2890%2990005-X)
+
+Nguyen, K. N., Watanabe, T., & Andersen, G. J. (2020). Role of endogenous and exogenous attention in task-relevant visual perceptual learning. *PLOS ONE, 15*(8), Article e0237912. [https://doi.org/10.1371/journal.pone.0237912](https://doi.org/10.1371/journal.pone.0237912)
+
+Roberts, M., & Carrasco, M. (2022). Exogenous attention generalises location transfer of perceptual learning in adults with amblyopia. *iScience, 25*(3), Article 103839. [https://doi.org/10.1016/j.isci.2022.103839](https://doi.org/10.1016/j.isci.2022.103839)
+
+Tang, Y., Liang, J., & Zhou, Y. (2025). Perceptual learning improves spatial contrast sensitivity in older adults. *Frontiers in Neuroscience, 19*, Article 1681856. [https://doi.org/10.3389/fnins.2025.1681856](https://doi.org/10.3389/fnins.2025.1681856)
 
 Yu, C. (2011). Visual perceptual learning and its specificity and transfer. *i-Perception, 2*(7), 873–875. [https://doi.org/10.1068/ic406](https://doi.org/10.1068/ic406)
 
 Zhang, J.-Y., Zhang, G.-L., Xiao, L.-Q., Klein, S. A., Levi, D. M., & Yu, C. (2010). Rule-based learning explains visual perceptual learning and its specificity and transfer. *The Journal of Neuroscience, 30*(37), 12323–12328. [https://doi.org/10.1523/JNEUROSCI.0704-10.2010](https://doi.org/10.1523/JNEUROSCI.0704-10.2010)
 
-Zhang, X.-Y., & Tang, D.-L. (2025). Heavy-tailed update distributions arise from information-driven self-organisation in nonequilibrium learning. *Proceedings of the National Academy of Sciences, 122*(51), Article e2523012122. [https://doi.org/10.1073/pnas.2523012122](https://doi.org/10.1073/pnas.2523012122)
+Zhang, X.-Y., & Tang, C. (2025). Heavy-tailed update distributions arise from information-driven self-organisation in nonequilibrium learning. *Proceedings of the National Academy of Sciences, 122*(51), Article e2523012122. [https://doi.org/10.1073/pnas.2523012122](https://doi.org/10.1073/pnas.2523012122)
+
+ 
 
 ---
 
