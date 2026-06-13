@@ -1,6 +1,4 @@
-# H-AGI Protocol v2.1
-
-## Human-led Adaptive Generative Intelligence for the Trident-G system
+# H-AGI (Human-AI General Intelligence) Protocol v2.1
 
 ### Quick-reference card
 
@@ -21,18 +19,9 @@ Learn what survives.
 
 ### Core definition
 
-H-AGI stands for **Human-led Adaptive Generative Intelligence**.
+H-AGI stands for Human-AI General Intelligence.
 
-The H-AGI Protocol is a structured system for using artificial intelligence as an extension of human intelligence without surrendering human judgement, agency, creativity or learning. It trains people to work with LLMs, interactive artefacts, custom GPTs, notebooks, dashboards and real-world feedback loops as part of an extended cognitive system.
-
-The central idea is simple:
-
-```text
-AI expands the workspace.
-The human governs cognition.
-The world tests the model.
-The human learns from the result.
-```
+H-AGI does not mean autonomous Artificial General Intelligence. It means Human-AI General Intelligence: a human-governed protocol for using AI as a general-purpose cognitive workspace to augment transferable human intelligence.
 
 H-AGI is not a prompt library. It is a training protocol for AI-era intelligence. Its purpose is to help users frame problems, reason relationally, challenge assumptions, generate alternatives, design causal probes, make decisions, act in the world, update from feedback and consolidate reusable intelligence.
 
