@@ -1,4 +1,4 @@
-# H-AGI (Human-AI General Intelligence) Protocol v2.1
+# H-AGI (Human-AI General Intelligence) Protocol™
 
 ### Quick-reference card
 
@@ -23,7 +23,7 @@ H-AGI stands for Human-AI General Intelligence.
 
 H-AGI does not mean autonomous Artificial General Intelligence. It means Human-AI General Intelligence: a human-governed protocol for using AI as a general-purpose cognitive workspace to augment transferable human intelligence.
 
-H-AGI is not a prompt library. It is a training protocol for AI-era intelligence. Its purpose is to help users frame problems, reason relationally, challenge assumptions, generate alternatives, design causal probes, make decisions, act in the world, update from feedback and consolidate reusable intelligence.
+The H-AGI Protocoll™ is not a prompt library. It is a training protocol for AI-era intelligence. Its purpose is to help users frame problems, reason relationally, challenge assumptions, generate alternatives, design causal probes, make decisions, act in the world, update from feedback and consolidate reusable intelligence.
 
 The protocol has three linked objectives:
 
@@ -182,6 +182,8 @@ The protocol therefore treats intelligence as more than output generation. Intel
 ---
 
 # 4. Ψ-band and body-budget readiness
+
+In the current version, the Ψ-band gate is a structured self-routing heuristic. In a later validated implementation, Zone Coach can use cognitive-test and HRV-related data to classify state and route the H-AGI session more precisely.
 
 The first layer of H-AGI is a readiness gate. This is important because AI can amplify the user's current cognitive state. If the user is regulated, AI can expand and sharpen cognition. If the user is overloaded, AI can increase confusion. If the user is fast-brittle, AI can accelerate premature certainty. If the user is fatigued, AI can become a stimulant for shallow productivity rather than deep thinking.
 
