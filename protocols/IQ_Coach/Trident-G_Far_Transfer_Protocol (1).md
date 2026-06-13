@@ -2089,7 +2089,8 @@ In one sentence:
 ---
 # Figure
 
-![Uploading Fig 1 - Trident G Far Transfer Protocol.png…]()
+<img width="1448" height="1086" alt="Fig 1 - Trident G Far Transfer Protocol" src="https://github.com/user-attachments/assets/da64043b-fba4-4cb2-b38d-abb17caef0d6" />
+
 
 # References
 
