@@ -1,4 +1,4 @@
-# High-Level Task Specifications
+# Zone Coach Protocol
 
 ## Purpose And Status
 
@@ -760,6 +760,131 @@ Before use for routing or individual feedback:
 7. Set quality and abstention thresholds without using the final test sample.
 8. Test prediction of an independent next-work-block outcome.
 9. Test any proposed support through randomized intervention studies.
+
+---
+# Follow up notes
+Yes — **it is sufficiently detailed to build a research/MVP app that runs a 2 + 2 + 2 minute cognitive battery**, with optional concurrent RR/HRV collection. The document clearly specifies the minimum battery as **2-minute SART + 2-minute Stroop + 2-minute Flanker = 6 minutes**, with the three-minute SART as the higher-fidelity 7-minute option. It also gives timings, trial structure, raw event fields, candidate features, quality gates, timing requirements and output fields. 
+
+But I would distinguish:
+
+| Question                                                            | Answer                                       |
+| ------------------------------------------------------------------- | -------------------------------------------- |
+| Can a developer build the task app from this?                       | **Yes, for MVP / research data collection.** |
+| Can it produce provisional probabilistic readiness feedback?        | **Yes, with uncertainty and abstention.**    |
+| Is it enough for a validated production classifier?                 | **Not yet.**                                 |
+| Is it enough for medical, diagnostic or strong intervention claims? | **No.**                                      |
+
+The document itself correctly states that this is a **research protocol outline**, not yet a production classifier, medical device specification, diagnostic test or validated intervention router. 
+
+## Staged 2 + 2 + 2 option
+
+Yes, staged completion is not only possible — it is a good UX design. I would implement it like this:
+
+| Stage     | User experience        | Scientific output                                                   | Claim boundary                                                            |
+| --------- | ---------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **2 min** | “Quick check”          | SART vigilance / engagement / inhibition signal                     | Not enough for the four control-profile probabilities                     |
+| **4 min** | “Add control check”    | SART + Stroop: vigilance plus partial interference-control evidence | Useful but incomplete; Flanker is still needed as cross-task confirmation |
+| **6 min** | “Full readiness check” | SART + Stroop + Flanker: minimum full cognitive protocol            | Four task-active control probabilities + vigilance score + uncertainty    |
+
+The key point is that the **2-minute stage should not return the same kind of result as the 6-minute stage**. It should return something like:
+
+> “Vigilance / response stability estimate only. Add the next two minutes for cognitive-control detail.”
+
+After 4 minutes, the app can say:
+
+> “Preliminary control pattern detected. Add the final two minutes to check whether it generalises across a second conflict task.”
+
+After 6 minutes, it can return the main output:
+
+> regulated / slow-compensatory / overloaded / fast-brittle probabilities, plus vigilance and confidence.
+
+That matches the protocol’s own separation: SART/PVT gives continuous vigilance or lapse-proneness, while **Stroop + Flanker** provide probabilities for the neutral task-active control profiles. The app should not collapse these immediately into a single hard label or validated eight-class state. 
+
+## Optional 6-minute HRV during the cognitive tasks
+
+Yes, RR/HRV can be recorded continuously during the 6-minute cognitive battery. The protocol explicitly allows continuous RR collection while the cognitive battery is administered, but it says the cognitive and autonomic outputs should remain complementary rather than collapsed into one inferred state. 
+
+The important caveat is this: **the six cognitive minutes should not be treated as one stationary HRV window**. The protocol says RR should be recorded continuously while retaining exact task, instruction, transition and recovery boundaries, and that task-specific HRV summaries should be calculated separately for each two- or three-minute segment. 
+
+So the best implementation is:
+
+```text
+Optional sensor connection
+→ RR stream starts
+→ 2 min SART
+→ 2 min Stroop
+→ 2 min Flanker
+→ RR stream ends
+```
+
+But the stronger science version is:
+
+```text
+90–120 sec seated RR baseline
+→ 2 min SART
+→ 2 min Stroop
+→ 2 min Flanker
+→ 60 sec seated recovery
+```
+
+That is longer than 6 minutes, but scientifically cleaner because it lets you distinguish pre-task reserve, task mobilisation and post-task recovery. The protocol specifically recommends this stronger sequence. 
+
+For the commercial app, I would offer both:
+
+| Mode                     | Total time | Use                                                                          |
+| ------------------------ | ---------: | ---------------------------------------------------------------------------- |
+| **Mind Only Quick**      |      2 min | vigilance-only quick check                                                   |
+| **Mind Only Standard**   |      6 min | full minimum cognitive profile                                               |
+| **Mind + Body Embedded** |      6 min | cognitive profile plus task-embedded RR/HRV trends                           |
+| **Mind + Body Full**     |  8.5–9 min | baseline + cognitive battery + recovery; best for more serious readiness use |
+
+## What still needs adding before handing to a developer
+
+The protocol is detailed enough conceptually, but I would add an engineering appendix before giving it to Codex or a developer. The missing pieces are mostly implementation artefacts:
+
+1. **Exact SART 96-trial sequence**
+   The protocol says to use the first 96 trials of the source fixed semi-random sequence. That should be supplied as a versioned JSON/CSV file.
+
+2. **Exact Stroop and Flanker trial-generation rules in code-like form**
+   The document gives the rules, but developers will need deterministic mini-block algorithms and seed handling.
+
+3. **Classifier/scoring model specification**
+   You need the actual feature transforms, scaling, imputation rules, probability model, thresholds and abstention logic.
+
+4. **Database schema**
+   The raw-event fields are specified, but Supabase/Firebase tables should be defined explicitly: users, sessions, task_events, task_summary, rr_intervals, hrv_segments, device_quality, outputs.
+
+5. **BLE/HRV integration spec**
+   For Polar H10, define connection flow, RR interval stream format, reconnect logic, artefact handling and failure states.
+
+6. **UX state machine**
+   Especially for staged testing: start 2 min, continue to 4 min, continue to 6 min, skip HRV, reconnect sensor, abort, resume, abstain.
+
+7. **Output wording rules**
+   The app should use probabilities, confidence and “not enough evidence” states rather than deterministic labels.
+
+## My recommended staged app design
+
+I would implement the first MVP exactly like this:
+
+```text
+1. 20–30 sec context check
+2. Optional HRV sensor connection
+3. 2 min SART
+   Output: vigilance-only quick readout
+   Button: “Add control detail”
+4. 2 min Stroop
+   Output: preliminary control readout
+   Button: “Add confirmation task”
+5. 2 min Flanker
+   Output: full minimum cognitive readiness profile
+6. Optional route:
+   proceed / simplify / scaffold / activate / recover / slow-check
+```
+
+That gives you a clean commercial UX while respecting the science. The user can stop after 2 minutes, but the app is honest that this is a **quick vigilance estimate**, not the full Zone Coach profile. The full 6-minute version is the minimum defensible cognitive battery.
+
+---
 
 ## References
 
