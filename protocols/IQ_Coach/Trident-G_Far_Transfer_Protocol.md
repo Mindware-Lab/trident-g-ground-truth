@@ -6,7 +6,7 @@
 
 ---
 
-## Executive summary
+## Summary
 
 The Trident-G Far Transfer Protocol is a structured cognitive-training and performance-routing framework designed to train **portable adaptive intelligence**, rather than narrow task improvement.
 
