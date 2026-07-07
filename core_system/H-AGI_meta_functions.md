@@ -7,7 +7,7 @@ A **mindware meta-function** is a reusable cognitive control system for a broad 
 Each meta-function uses the same underlying G-loop:
 
 ```text
-F★ protection
++ F★ protection
 + λ support estimation
 + 𝒢-volume direction
 + MI target construction
