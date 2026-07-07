@@ -7,7 +7,7 @@ A strategic G-loop is a scale-sensitive adaptive cycle in which the system prote
 In Trident-G terms:
 
 ```text
-F★ protection
++ F★ protection
 + λ support estimation
 + 𝒢-volume direction
 + MI target construction
