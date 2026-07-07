@@ -3,7 +3,7 @@
 The best version is now a **three-channel loop-readiness model**:
 
 ```text
-Cognitive-control state
++ Cognitive-control state
 + engagement-vigilance state
 + autonomic/body-budget state
 + personal-baseline deviation
