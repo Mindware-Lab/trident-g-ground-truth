@@ -8,13 +8,16 @@ A central claim of this taxonomy is that **EQ is not merely "social intelligence
 
 ---
 
-## I. THE ARCHITECTURE: Three Domains of Power
+## I. THE ARCHITECTURE: Four Scales of Power
 
-| Domain | TGT Construct | Core Question | Power Type |
-|--------|--------------|---------------|------------|
+| Scale | TGT Construct | Core Question | Power Type |
+|---|---|---|---|
 | **Individual Power** | G-loop at the organism level | *Can I act effectively?* | Capacity to preserve and expand viable action |
-| **Relational Power** | χ (chi) — group coherence + λ (lambda) — niche coupling | *Can we act together effectively?* | Capacity for coordination, alliance, and mutual expansion |
-| **Structural Power** | Gc banking + 𝒢-volume expansion | *Can we build something that outlasts us?* | Capacity to create reusable, portable, compounding structure |
+| **Relational Power** | χ_group + λ_group | *Can we act together effectively?* | Capacity for coordination, alliance and mutual expansion |
+| **Institutional Power** | Banked Gc + niche architecture | *What structures shape future action?* | Capacity to create durable rules, roles, assets, feedback channels and standards |
+| **Macro-Structural Power** | MRQ pressure + ϕ alignment + exponential 𝒢-volume competition | *Whose power curve are we being absorbed into?* | Capacity to shape the conditions under which institutions, states, platforms and blocs align, compete or fragment |
+
+https://iqmindware.substack.com/p/dynamic-spheres-of-influence-in-the 
 
 ---
 
@@ -510,10 +513,32 @@ In compact form:
 Good institutions bank intelligence.
 Bad institutions bank capture.
 Power depends on which one the structure makes easier.
+The next level asks why captured institutions become so common under modern conditions. The answer is not only bad motives or poor design. It is also structural pressure: in a world of exponential technologies, resource limits and multipolar competition, agents are incentivised to absorb the data, attention, infrastructure, legitimacy and decision-space of other agents into their own power curve.
 ```
+## V. MACRO-STRUCTURAL POWER: Red Queen Capture
 
+Macro-structural power describes how agents, organisations, states and blocs compete to expand 𝒢-volume under conditions of resource constraint and exponential scaling.
 
-## V. THE CAPTURE SPECTRUM: From Healthy to Distorted
+When power domains scale linearly, competition can remain relatively bounded. But when cognitive capital, AI, cloud infrastructure, digital finance, information operations and platform networks scale exponentially, small initial advantages compound rapidly. This creates Red Queen pressure: actors must expand capability merely to avoid relative decline.
+
+Under these conditions, capture becomes structurally incentivised. Dominant nodes seek to absorb weaker nodes’ data, attention, infrastructure, institutional routines, financial flows, legitimacy, labour, identity and decision-space into their own power curve.
+
+The key variable is ϕ: the degree to which an agent, institution or state is aligned with, assimilated into, or dependent on a dominant power system.
+
+High ϕ means the subordinate node’s future 𝒢-volume is increasingly routed through the dominant node’s infrastructure, standards, ontology, feedback channels and objective functions.
+
+Low ϕ means the node retains independent 𝒢-volume, but may face higher costs, weaker access to infrastructure, or pressure to realign.
+
+Red Queen capture therefore occurs when:
+competitive pressure + exponential infrastructure + institutional dependency
+produce alignment without full agency.
+
+In Trident-G terms:
+capture is not only psychological or organisational.
+It is scale-free.
+It can occur at the level of persons, firms, universities, platforms, states, blocs and civilisations.
+
+## VI. THE CAPTURE SPECTRUM: From Healthy to Distorted
 
 Every principle has a **healthy motivation** and a **capture/distortion**. This is the TGT view: the same mechanism that enables power can hijack it. The Ψ-band is narrow. Drift too far toward subcritical rigidity (over-control) or supercritical chaos (over-expansion), and the principle inverts.
 
@@ -541,8 +566,7 @@ Every principle has a **healthy motivation** and a **capture/distortion**. This 
 **The EQ diagnostic:** In every case, the distorted pole is characterised by an EQ readout that *feels* like the healthy pole but *functions* like its opposite. This is the signature of capture: the rendering system has been hijacked. But EQ alone cannot verify reality — its readouts must be calibrated by λ-coupled feedback and IQ-based structure testing.
 
 ---
-
-## VI. THE POWER CYCLE: How Principles Interact
+## VII. THE POWER CYCLE: How Principles Interact
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -610,9 +634,10 @@ Every principle has a **healthy motivation** and a **capture/distortion**. This 
 - **Re-coordinate** = Move 9 (Check) + Spiral Advance — processing prediction error and re-entering with an updated model
 - The dashed feedback arrow in the G-Loop ("feedback can return to any earlier move") is the re-coordination pathway: new information may send you back to the Arc, the Map, the Scale, or even the State Check
 
+
 ---
 
-## VII. COMPACT REFERENCE: All 31 Principles by Domain
+## VIII. COMPACT REFERENCE: All 31 Principles by Domain
 
 ### Individual Power (16 principles)
 
@@ -633,16 +658,24 @@ Every principle has a **healthy motivation** and a **capture/distortion**. This 
 | **Trust Building** | Common success builds η_group; Failure tests χ_group; Loyalty as anti-defection; Honest signals cost; No destructive sacrifice |
 | **Structure Building** | Bank shared Gc; Build repair rituals; Make feedback visible; Reward the chain; Exit without betrayal |
 
+### Macro-Structural Power
+
+| Category | Principles |
+|---|---|
+| **Red Queen Pressure** | Exponential power domains force continuous capability escalation |
+| **Alignment / Assimilation** | ϕ measures whether a node retains independent 𝒢-volume or is routed through a dominant power curve |
+| **Capture Incentives** | Dominant nodes seek to absorb data, attention, legitimacy, infrastructure, labour and decision-space |
+| **Scale-Free Capture** | The same dynamics operate across persons, firms, institutions, states, platforms, blocs and civilisations |
+
 ---
 
-## VIII. THE TRIDENT-G DEFINITION OF POWER
+## IX. THE TRIDENT-G DEFINITION OF POWER
 
-> **Power is the capacity to maintain viable near-critical operation while expanding future action space, improving coupling to reality, banking what survives as reusable structure, and resisting capture by external or internal control loops. Its subjective signature is felt agency: the world becomes more navigable, meaningful, recoverable and mine.**
+> **Power is the capacity to maintain viable near-critical operation while expanding future action space, improving coupling to reality, banking what survives as reusable structure, and resisting capture by external or internal control loops. Its subjective or intersubjective signature is felt agency: the world becomes more navigable, meaningful, recoverable and genuinely mine — or, in a collective project or system, genuinely ours.**
 
 In simpler terms:
 
-> **Power is the ability to act effectively, together, and sustainably — while staying free, and knowing that you are.**
-
+> **Power is the ability to act effectively, together, and sustainably — while staying free, and knowing that the loop remains our own.**
 ---
 
 *Organised according to Trident-G Theory principles: G-loop architecture, F★ (defended base), 𝒢-volume (action space), λ (niche coupling), η (meta-efficacy), χ (coherence), Gf (fluid intelligence), Gc (crystallised intelligence), Ψ-band (near-critical operation), EQ (interoceptive rendering and capture detection), and the distinction between healthy motivation and capture/distortion.*
