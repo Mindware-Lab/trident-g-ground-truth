@@ -1,4 +1,4 @@
-# A Taxonomy of Power: Organised Through Trident-G Theory
+# Trident G Theory - Taxonomy of Power 
 
 ## Overview
 
