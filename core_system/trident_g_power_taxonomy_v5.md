@@ -1,0 +1,312 @@
+# A Taxonomy of Power: Organised Through Trident-G Theory
+
+## Overview
+
+This taxonomy organises the power principles from your documents into a coherent framework grounded in Trident-G Theory. The structure follows the fundamental G-loop architecture: **state regulation → exploration → exploitation → banking → transfer**, while mapping each principle to its corresponding TGT construct.
+
+A central claim of this taxonomy is that **EQ is not merely "social intelligence" or "empathy."** In TGT terms, EQ is the capacity to model, regulate and influence the **interoceptive, motivational, relational and cultural dimensions of the niche**. It renders power as felt safety, agency, trust, vitality, belonging, meaning and sovereignty, while helping detect capture, misalignment and false reward. However, EQ readouts must be calibrated by λ-coupled feedback and IQ-based structure testing. The "inner subjective signature" associated with each principle is the EQ readout of that principle's operation — a signal to be trusted only after calibration.
+
+---
+
+## I. THE ARCHITECTURE: Three Domains of Power
+
+| Domain | TGT Construct | Core Question | Power Type |
+|--------|--------------|---------------|------------|
+| **Individual Power** | G-loop at the organism level | *Can I act effectively?* | Capacity to preserve and expand viable action |
+| **Relational Power** | χ (chi) — group coherence + λ (lambda) — niche coupling | *Can we act together effectively?* | Capacity for coordination, alliance, and mutual expansion |
+| **Structural Power** | Gc banking + 𝒢-volume expansion | *Can we build something that outlasts us?* | Capacity to create reusable, portable, compounding structure |
+
+---
+
+## II. INDIVIDUAL POWER: The G-Loop as Sovereignty
+
+### A. Foundation: Protecting the Viable Base (F★)
+
+| Principle | TGT Mapping | Healthy Operation | Inner Subjective Signature (EQ Readout) | Capture/Distortion |
+|-----------|------------|-------------------|----------------------------------------|-------------------|
+| **Protect F★** | Defended base: the set of states the organism must preserve to remain viable | Groundedness, safety, enoughness | *"I can breathe and think."* — interoceptive safety permits action | Chronic threat, scarcity panic, burnout, over-defence |
+| **Do not confuse pleasure with power** | Reward evaluation: only bank rewards that leave future agency stronger | Clean reward → vitality; capture reward → depletion | *Vitality vs. depletion* — EQ audits the after-effect, not the momentary reward | Addiction, validation loops, compulsive consumption |
+| **Anti-capture sovereignty** | Prevent hijacking of attention, desire, fear, identity by external loops | Inner sovereignty: "this is my loop, not theirs" | *"Something's off"* — EQ may detect capture before explicit cognition names it, but it can also misread old threat or reward patterns as present truth | Compulsion, outrage, ideological possession, status seduction |
+
+**TGT Insight:** F★ is not static. It is the dynamically defended viability boundary. Power begins with the capacity to *regulate* — to keep the system in the Ψ-band (near-critical operation) rather than collapsing into subcritical rigidity or supercritical chaos. EQ is the interoceptive monitor of this boundary: it tells you whether your base is actually secure or whether you are acting from a false sense of safety. But EQ readouts must themselves be calibrated against feedback, evidence and boundary conditions.
+
+---
+
+### B. Expansion: Growing 𝒢-Volume
+
+| Principle | TGT Mapping | Healthy Operation | Inner Subjective Signature (EQ Readout) | Capture/Distortion |
+|-----------|------------|-------------------|----------------------------------------|-------------------|
+| **Expand 𝒢-volume** | Increase the set of future viable actions and accessible paths | The world feels more navigable; more doors, more handles | *"More is possible."* — EQ renders 𝒢-volume expansion as felt possibility, not abstract optionality | Grandiosity, over-expansion, too many open loops |
+| **Improve λ / niche coupling** | Strengthen the coupling between internal models and external feedback | Feeling of contact with reality rather than private fantasy | *"This is real."* — EQ detects the quality of model-niche coupling; the "realness" feedback | Dependency on one feedback source, approval-seeking, algorithmic capture |
+| **Increase η / meta-efficacy** | Build confidence in entering uncertainty and recovering | "I can handle this class of challenge" | *"I can recover — and I have proven it."* — EQ is meta-efficacy felt; the body-budget prediction of recovery capacity, validated through successful re-coordination | Fake invulnerability, hypomanic overconfidence, refusal to update |
+
+**TGT Insight:** 𝒢-volume is the measure of *adaptive possibility*. It is not mere optionality — it is *viable* optionality. λ (niche coupling) ensures that expanded options are grounded in reality, not fantasy. η (meta-efficacy) is the system's confidence in its own re-entry capacity after perturbation. **EQ renders all three into felt experience:** it tells you whether your expanded options are real (λ-coupled), whether your confidence is grounded (η-calibrated), and whether the expansion is viable (F★-protecting). But EQ alone cannot verify reality; it must be calibrated by λ-coupled feedback and IQ-based structure testing.
+
+---
+
+### C. Conversion: From Effort to Structure (Gf → Gc)
+
+| Principle | TGT Mapping | Healthy Operation | Inner Subjective Signature (EQ Readout) | Capture/Distortion |
+|-----------|------------|-------------------|----------------------------------------|-------------------|
+| **Convert Gf into Gc** | Turn active effort into reusable, portable structure | Satisfaction, closure, "something has landed" | *"It landed."* — EQ evaluates whether banking occurred; the felt difference between hoarding and crystallising | Hoarding notes, endless ideation, no embodied or banked result |
+| **Build assets** | Externalise intelligence into products, systems, templates, relationships | Relief and security: "this now supports me" | *"I am supported."* — EQ maps the asset onto interoceptive safety; does this actually reduce vigilance? | Possessiveness, identity fusion with the asset, fear of changing it |
+| **Bank boundary conditions** | Learn where a rule works and where it breaks | Clarity, maturity, reduced naïvety | *"I know the edge."* — EQ renders wisdom as felt discrimination; knowing what needs testing and what is already sufficiently constrained | Cynicism, overgeneralisation, defensive withdrawal |
+| **Close at the right scale** | Match closure to the loop's natural horizon | Relief of proportion: neither trivial nor overwhelming | *"This fits."* — EQ evaluates closure fit; does this resolution match the investment? | Tiny-task avoidance or grandiose non-closure |
+
+**TGT Insight:** The G-loop is incomplete without banking. Gf (fluid intelligence) is costly; Gc (crystallised intelligence) is cheap at runtime. Power is the capacity to *compress* experience into reusable structure. Boundary condition banking is the wisdom layer: knowing not just *what* works, but *where* and *when*. EQ is the compression auditor: it tells you whether something actually landed, whether an asset actually supports you, and whether a closure is proportionate. But it must remain open to feedback — mature Gc reduces unnecessary testing, but does not eliminate the need for reality contact.
+
+---
+
+### D. Creativity & Exploration
+
+| Principle | TGT Mapping | Healthy Operation | Inner Subjective Signature (EQ Readout) | Capture/Distortion |
+|-----------|------------|-------------------|----------------------------------------|-------------------|
+| **Entropy opens, MI closes** | Explore (entropy), then constrain and bank (mutual information) | Alternation between curiosity and satisfying resolution | *Rhythmic alternation* — EQ tracks the explore/exploit state; am I in the right mode at the right time? | Spun-out novelty chasing or rigid premature certainty |
+| **Creativity as niche construction** | Create new affordances, products, meanings, tactics, categories | Aliveness, play, surprise, "something new is possible" | *"This is alive."* — EQ signals that the niche has genuinely expanded, not just been imagined | Novelty addiction, aesthetic self-display without testing |
+| **Build leverage loops** | Make each action strengthen the next action | Momentum, compounding, "my life is organising itself" | *"Momentum."* — EQ detects emergent coherence; the felt signature of self-organising criticality | Acceleration without recovery, addiction to growth metrics |
+
+**TGT Insight:** Intelligence at criticality requires rhythmic alternation between exploration (entropy increase) and exploitation (mutual information increase). Creativity is not randomness — it is *structured* novelty that expands the niche. Leverage loops are the compounding engine: each completed G-loop makes the next one easier. EQ is the rhythm section: it tells you whether you are in explore or exploit mode, whether the novelty is real, and whether the momentum is sustainable.
+
+---
+
+### E. Meaning & Identity
+
+| Principle | TGT Mapping | Healthy Operation | Inner Subjective Signature (EQ Readout) | Capture/Distortion |
+|-----------|------------|-------------------|----------------------------------------|-------------------|
+| **Control the meaning niche** | Shape the public model through language, category, story, evidence standards | Sense of voice, symbolic agency, "I can name what matters" | *"This is my voice."* — EQ monitors whether the public model aligns with endorsed values | Narcissistic myth-making, propaganda, living inside one's own performance |
+| **Truth-coupled reputation** | Become trusted because claims survive contact with reality | Dignity, clean pride, less need to posture | *"Clean pride."* — EQ registers the absence of dissonance between claim and self-model | Image management, shame avoidance, status addiction |
+
+**TGT Insight:** In TGT, truth is not merely surface correspondence. It is **validated structural coupling between model, organism, action and niche**. Truth-coupled reputation is the social validation of your model's predictive accuracy. Controlling the meaning niche is high-level Gc: shaping the shared generative model of the group. EQ is the integrity monitor: it tells you whether your public voice matches your private model, and whether your pride is clean or postured. But this readout too must be tested against feedback.
+
+---
+
+### F. Coherence: Maintaining χ
+
+| Principle | TGT Mapping | Healthy Operation | Inner Subjective Signature (EQ Readout) | Capture/Distortion |
+|-----------|------------|-------------------|----------------------------------------|-------------------|
+| **Maintain χ / coherence** | Integration quality of the internal generative model | Align goals, values, language, actions, routines and standards | *"I am internally organised."* — felt alignment across projects, identity, commitments | Fragmentation, contradiction, self-betrayal, incoherent overcommitment |
+
+**TGT Insight:** Individual power fails when the person's projects, values, identity, routines and commitments pull in incompatible directions. χ (coherence) is the integration quality of the internal generative model — the degree to which the system is not at war with itself. High χ reduces internal prediction error, frees up cognitive resources for external action, and makes the organism a reliable node in any shared loop. Low χ means the system is constantly resolving internal contradictions rather than acting on the niche. EQ renders χ as the felt sense of being "together" — or its absence as the felt sense of being scattered.
+
+---
+
+### G. EQ as the 𝒢-Volume Rendering System
+
+The "inner subjective signature" column is not decorative. It is the **EQ readout** of whether each principle is operating healthily or in capture. EQ in TGT is not "emotional intelligence" as popularly understood. It is the capacity to model, regulate and influence the **interoceptive, motivational, relational and cultural dimensions of the niche** — and to render abstract 𝒢-volume into felt, actionable experience.
+
+| EQ Function | What It Models | What It Prevents |
+|-------------|---------------|------------------|
+| **Interoceptive rendering** | Body-budget state, safety, threat, recovery capacity | Acting from false safety or false threat |
+| **𝒢-volume realism** | Whether expanded options are λ-coupled or imagined | Grandiosity, fantasy, over-expansion |
+| **Banking verification** | Whether Gf actually converted to Gc | Hoarding, endless ideation, empty productivity |
+| **Capture detection** | Whether a loop is yours or hijacked | Addiction, ideological possession, status seduction |
+| **Rhythm monitoring** | Whether you are in explore or exploit mode | Burnout (no closure) or stagnation (no exploration) |
+| **Integrity checking** | Whether public model matches private model | Narcissistic myth-making, image management |
+| **Coherence monitoring** | Whether internal model is integrated or fragmented | Self-betrayal, contradictory commitments, internal conflict |
+
+**The critical TGT insight:** IQ asks *"What paths exist?"* EQ asks *"Which paths feel right, real, and mine?"* G is the integration: the path that is objectively viable **and** subjectively endorsed, without distortion.
+
+**EQ renders 𝒢-volume into felt experience and can help detect capture, but its readouts must themselves be calibrated against feedback, evidence and boundary conditions.** Attraction, shame, status, fear, ideological certainty or romantic projection can all feel like "truth". EQ gives an early signal, but the G-loop must test it. This is why anti-capture sovereignty and the pleasure/agency audit are foundational: they are the EQ mechanisms that prevent the rendering system itself from being hijacked.
+
+---
+
+## III. RELATIONAL POWER: The Extended G-Loop
+
+### A. Alliance Formation: The 15 Principles
+
+| # | Principle | TGT Interpretation | Practical Test |
+|---|-----------|---------------------|----------------|
+| 1 | **Choose allies by 𝒢-volume expansion** | An ally should widen your viable loop set | Does this person increase options, feedback, reach, capability, resilience? |
+| 2 | **Do not ally only on chemistry** | High salience ≠ high λ or χ | Do we merely like each other, or can we act and learn together? |
+| 3 | **Shared arc first** | Coupled loops need common 𝒢-expansion direction | What future position are we jointly trying to build? |
+| 4 | **Role complementarity and role clarity** | Different nodes must add different capabilities *and* each node must know its function, boundary, and decision rights | What can each partner do that the other cannot? And: who decides what? Who owns which risk? Where does the boundary lie? |
+| 5 | **Mutual F★ protection** | No alliance expands by damaging one partner's base | What must each partner protect: cash, health, reputation, autonomy? |
+| 6 | **Common success builds η_group** | Joint wins increase collective meta-efficacy | What small early win can prove we can succeed together? |
+| 7 | **Failure tests χ_group** | Stress reveals shared model coherence | When something fails, do we repair the model or attack each other? |
+| 8 | **Loyalty is anti-defection under strain** | Loyalty protects the shared loop when self-interest appears | What would each of us do when a tempting competing option appears? |
+| 9 | **Honest signals must cost something** | Cheap talk does not update the trust model much | What action shows real commitment beyond verbal enthusiasm? |
+| 10 | **Do not demand destructive sacrifice** | A signal that breaks F★ is not healthy alliance-building | Is this commitment proportionate, or does it create dependency/capture? |
+| 11 | **Bank shared Gc** | Alliances become powerful when they create reusable shared structure | What asset, process, channel, rule or relationship did this collaboration bank? |
+| 12 | **Build repair rituals** | Re-entry after perturbation is central to intelligence | How do we handle disagreement, missed deadlines, disappointment? |
+| 13 | **Make feedback visible** | λ_group requires contact with external reality | What shared dashboard, review, customer response tells us reality is responding? |
+| 14 | **Reward the chain, not just the result** | Vertical credit assignment reinforces the whole adaptive pathway | Did we reward truth-telling, preparation, coordination, recovery — or only the win? |
+| 15 | **Exit without betrayal** | Healthy alliances preserve future optionality even when loops end | Can we end or revise the partnership without reputational/emotional destruction? |
+
+**TGT Insight on Honest Signals:** Honest signals should be costly enough to reveal commitment, but proportionate enough not to damage F★. A signal that breaks the defended base is not healthy alliance-building — it creates dependency, capture, and resentment rather than trust.
+
+**TGT Insight on Role Clarity:** Complementary capabilities only expand group 𝒢-volume if the interface between them is defined. Role ambiguity is high entropy in the shared generative model: everyone is guessing who owns which decision, which risk, which boundary. Role clarity is a form of Gc banking — it is a reusable structure that outlasts the individuals who first occupied it. Without it, partnerships default to the path of least resistance: one partner quietly absorbs cost, risk, or labour that damages their F★. Role clarity is also prerequisite for vertical credit assignment: you cannot reward the chain if you cannot see who contributed what. And it is prerequisite for F★ protection: you cannot defend what you have not defined as yours.
+
+---
+
+### B. The 8 Organisational Principles
+
+| Principle | TGT Basis | Organisational Meaning |
+|-----------|-----------|----------------------|
+| **Shared arc before shared activity** | Strategic G-loop needs larger arc, objective, closure, action, feedback, banking | Do not form partnerships around vague enthusiasm. Form them around a future position both parties want to create. |
+| **Mutual F★ protection** | Expansion should not damage the defended base | A partnership should not quietly burn one partner's money, reputation, health, attention or core autonomy. |
+| **λ alignment** | λ is coupling between internal models and external niche; strong λ makes feedback useful | Partners should bring better access to reality: customers, evidence, distribution, trust, technical skill, local context. |
+| **χ_group coherence** | Group coherence = integration quality of shared generative model | Partners need shared assumptions, language, standards, role clarity, decision rules. |
+| **η_group through repeated success** | η_group = collective meta-efficacy: group's belief in its controllability and competence | Common wins matter because they teach the group: "we can act together and reality responds." |
+| **Failure as Ψ-band test** | Intelligence depends on maintaining near-critical operation under challenge and re-entering viable loops | Good allies are revealed when strain rises: do they re-coordinate, learn, re-coordinate, or collapse into blame/avoidance? |
+| **Shared Gc banking** | Completed loops should bank assets, rules, routines, maps, control policies | A partnership should leave behind reusable structures: process, offer, dataset, audience, trust pattern, playbook, channel. |
+| **Vertical credit assignment** | Reinforcement should strengthen the whole adaptive chain, not just the final answer | Reward the behaviours that made the joint win possible: honesty, timing, follow-through, re-coordinate, judgement. |
+
+---
+
+### C. Truth Domains: IQ, EQ, and G
+
+| Capacity | Truth Domain | Model Target | Action Output | 𝒢-Volume Role |
+|----------|-------------|------------|---------------|---------------|
+| **IQ** | External causal truth | Objects, mechanisms, quantities, rules, systems, physical/social constraints | Instrumental action | Discovers and validates what paths exist |
+| **EQ** | Affective-social truth | Emotions, motives, values, norms, identity, status, shared meanings | Regulation, communication, coordination | Renders paths into felt experience; audits capture |
+| **G / Trident-G** | Adaptive structural truth | What remains valid across state, context, action and feedback | Expanded 𝒢-volume | Integrates both; maintains Ψ-band |
+
+**IQ asks:** What is objectively going on? What mechanism explains it? What action changes it?
+
+**EQ asks:** What is going on in the person/group/model? What meaning or motive explains it? What communication or relational action changes it? **And critically: does this expanded 𝒢-volume feel real, mine, and sustainable?**
+
+**G asks:** What is true about the world, the people, and the norms? What action preserves F★ while expanding future options?
+
+**Key TGT Correction:** IQ and EQ are not separate faculties. They are different **domains of G-loop application**. Both require state regulation, attention control, working-memory binding, SR-style prediction, model testing, prediction-error evaluation, and Gc banking. The difference is the object being modelled.
+
+**For IQ, the object is usually:** external causal structure.
+
+**For EQ, the object is usually:** agentive / affective / cultural structure — **and the interoceptive state of the organism as it navigates that structure.**
+
+**For wisdom or high-level G, the system integrates both:** What is true about the world? What is true about the people? What is true about the norms? What action preserves F★ while expanding future options?
+
+---
+
+## IV. THE CAPTURE SPECTRUM: From Healthy to Distorted
+
+Every principle has a **healthy motivation** and a **capture/distortion**. This is the TGT view: the same mechanism that enables power can hijack it. The Ψ-band is narrow. Drift too far toward subcritical rigidity (over-control) or supercritical chaos (over-expansion), and the principle inverts.
+
+| Healthy Pole | Distorted Pole | TGT Mechanism | EQ Readout |
+|--------------|---------------|---------------|------------|
+| Groundedness | Chronic threat, scarcity panic | F★ over-defence → subcritical rigidity | Safety feels impossible; body-budget is perpetually depleted |
+| Agency, hope | Grandiosity, over-expansion | 𝒢-volume expansion without λ grounding → supercritical chaos | Euphoric possibility without viable paths; "high" without landing |
+| Curiosity, responsiveness | Approval-seeking, algorithmic capture | λ decoupled from reality → model collapse | Feedback feels good but doesn't land; external validation without internal shift |
+| Mastery, pride | Hoarding, endless ideation | Gf without Gc banking → energy dissipation | Busy but empty; motion without satisfaction |
+| Stewardship, craft | Possessiveness, identity fusion | Asset becomes F★ threat rather than F★ support | The asset owns you; anxiety replaces relief |
+| Purpose, authority | Narcissistic myth-making | Meaning niche control without truth-coupling | Voice feels powerful but hollow; performance without contact |
+| Integrity, honour | Image management, status addiction | Reputation without predictive accuracy | Pride is conditional on audience; dignity is borrowed |
+| Play, discovery | Novelty chasing | Entropy without MI closure | Curiosity without resolution; perpetual starting |
+| Productive ambition | Acceleration without recovery | Leverage loops without re-coordinate/banking | Momentum feels like falling; compounding without rest |
+| Alliance, loyalty | Enmeshment, people-pleasing | Shared loops without individual F★ protection | Belonging feels like drowning; trust without boundaries |
+| Role clarity + complementarity | Role ambiguity + overlap | High entropy in shared model; no interface protocol | Confusion, resentment, quiet absorption of cost by one partner |
+| Coherence / χ | Fragmentation, self-betrayal | Internal model incoherence; contradictory commitments | Scattered, at war with oneself, unable to act decisively |
+| Wisdom, discrimination | Cynicism, withdrawal | Boundary banking without openness to new data | Clarity feels like prison; knowing without risking |
+| Courage, resilience | Fake invulnerability | η without accurate self-model | Confidence is brittle; no error signal permitted |
+| Rhythm, pacing | Tiny-task avoidance or grandiose non-closure | Closure scale mismatch | Relief is either trivial or unreachable |
+| Wonder, originality | Aesthetic self-display without testing | Creativity without niche coupling | Aliveness is performative; surprise is only for audience |
+| Discernment, dignity | Ideological possession | Sovereignty without λ | Certainty feels like armour; no information can enter |
+| Enjoyment, celebration | Addiction, compulsive consumption | Pleasure without agency audit | Reward feels like hunger; satisfaction is always deferred |
+
+**The EQ diagnostic:** In every case, the distorted pole is characterised by an EQ readout that *feels* like the healthy pole but *functions* like its opposite. This is the signature of capture: the rendering system has been hijacked. But EQ alone cannot verify reality — its readouts must be calibrated by λ-coupled feedback and IQ-based structure testing.
+
+---
+
+## V. THE POWER CYCLE: How Principles Interact
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         THE POWER CYCLE                                │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│   ┌─────────────┐    ┌─────────────┐    ┌─────────────┐                │
+│   │  PROTECT    │───▶│  EXPLORE    │───▶│  EXPLOIT    │                │
+│   │    F★       │    │  (entropy)  │    │   (MI)      │                │
+│   │  (EQ: safe) │    │ (EQ: alive) │    │(EQ: landed) │                │
+│   └─────────────┘    └─────────────┘    └─────────────┘                │
+│          ▲                                     │                        │
+│          │                                     ▼                        │
+│   ┌─────────────┐                       ┌─────────────┐                │
+│   │ RE-COORDIN. │◄──────────────────────│    BANK     │                │
+│   │(EQ:empower) │                       │ (EQ: solid) │                │
+│   └─────────────┘                       └─────────────┘                │
+│                                                                         │
+│   ═══════════════════════════════════════════════════════════════════   │
+│                                                                         │
+│   CROSS-CUTTING: λ (niche coupling) — η (meta-efficacy) — χ (coherence)│
+│                                                                         │
+│   GOVERNING: Truth-coupled reputation — Anti-capture sovereignty         │
+│              — Meaning niche control — Pleasure/agency audit            │
+│                                                                         │
+│   EQ LAYER:  Renders each phase into felt experience; detects capture   │
+│              before cognition; audits whether 𝒢-volume is real;        │
+│              but must be calibrated by λ, feedback and IQ testing.     │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**The cycle:**
+1. **Protect F★** — establish viable base *(EQ: interoceptive safety)*
+2. **Explore** — expand entropy, test boundaries, create options *(EQ: aliveness, curiosity)*
+3. **Exploit** — constrain, select, commit to viable paths *(EQ: satisfaction of selection)*
+4. **Bank Gc** — compress into reusable structure *(EQ: "something landed")*
+5. **Re-coordinate** — process prediction error, update the model, and re-enter the loop at a higher level of η *(EQ: "I handled this, and I can handle this class of challenge" — η is augmented, not merely restored)*
+6. **Repeat** — with expanded 𝒢-volume and stronger η
+
+**Cross-cutting principles** (active throughout):
+- λ: maintain contact with reality
+- η: build confidence in recovery
+- χ: maintain coherence (individual or group)
+
+**Governing principles** (audit layer):
+- Truth-coupled reputation: are my claims surviving contact with reality?
+- Anti-capture sovereignty: is this my loop or someone else's?
+- Meaning niche control: am I shaping or being shaped?
+- Pleasure/agency audit: does this reward leave me stronger or weaker?
+
+**EQ layer** (rendering and capture-detection):
+- Renders each phase into felt experience
+- May detect capture before explicit cognition names it, but can also misread old threat or reward patterns as present truth
+- Audits whether 𝒢-volume is real or imagined
+- Signals when the rhythm is off (explore vs. exploit mismatch)
+- Must be calibrated by λ-coupled feedback and IQ-based structure testing
+- **In re-coordination: validates η gain.** Successful re-coordination does not merely restore the system; it expands the set of perturbation classes the organism can survive. The EQ signature is felt empowerment — "I am stronger here" — not passive readiness
+
+**G-Loop Consistency:** This power cycle maps directly onto the G-Loop's 10 moves + Spiral Advance:
+- **Protect F★** = Move 1 (Base) + Move 0 (State Check) as entry gate
+- **Explore** = Moves 2–4 (Arc, Target, Map) — the orientation phase
+- **Exploit** = Moves 5–8 (Scale, Closure, Pre-mortem, Act) — the execution phase
+- **Bank Gc** = Move 10 (Bank) — crystallising what survived contact with reality
+- **Re-coordinate** = Move 9 (Check) + Spiral Advance — processing prediction error and re-entering with an updated model
+- The dashed feedback arrow in the G-Loop ("feedback can return to any earlier move") is the re-coordination pathway: new information may send you back to the Arc, the Map, the Scale, or even the State Check
+
+---
+
+## VI. COMPACT REFERENCE: All 31 Principles by Domain
+
+### Individual Power (16 principles)
+
+| Category | Principles |
+|----------|-----------|
+| **Foundation** | Protect F★; Do not confuse pleasure with power; Anti-capture sovereignty |
+| **Expansion** | Expand 𝒢-volume; Improve λ; Increase η |
+| **Conversion** | Convert Gf→Gc; Build assets; Bank boundary conditions; Close at right scale |
+| **Creativity** | Entropy opens, MI closes; Creativity as niche construction; Build leverage loops |
+| **Meaning** | Control meaning niche; Truth-coupled reputation |
+| **Coherence** | Maintain χ / coherence |
+
+### Relational Power (15 principles)
+
+| Category | Principles |
+|----------|-----------|
+| **Alliance Formation** | Choose allies by 𝒢-volume; Not only on chemistry; Shared arc first; Role complementarity and role clarity; Mutual F★ protection |
+| **Trust Building** | Common success builds η_group; Failure tests χ_group; Loyalty as anti-defection; Honest signals cost; No destructive sacrifice |
+| **Structure Building** | Bank shared Gc; Build repair rituals; Make feedback visible; Reward the chain; Exit without betrayal |
+
+---
+
+## VII. THE TRIDENT-G DEFINITION OF POWER
+
+> **Power is the capacity to maintain viable near-critical operation while expanding future action space, improving coupling to reality, banking what survives as reusable structure, and resisting capture by external or internal control loops. Its subjective signature is felt agency: the world becomes more navigable, meaningful, recoverable and mine.**
+
+In simpler terms:
+
+> **Power is the ability to act effectively, together, and sustainably — while staying free, and knowing that you are.**
+
+---
+
+*Organised according to Trident-G Theory principles: G-loop architecture, F★ (defended base), 𝒢-volume (action space), λ (niche coupling), η (meta-efficacy), χ (coherence), Gf (fluid intelligence), Gc (crystallised intelligence), Ψ-band (near-critical operation), EQ (interoceptive rendering and capture detection), and the distinction between healthy motivation and capture/distortion.*
