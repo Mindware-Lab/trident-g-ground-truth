@@ -176,8 +176,344 @@ The "inner subjective signature" column is not decorative. It is the **EQ readou
 **For wisdom or high-level G, the system integrates both:** What is true about the world? What is true about the people? What is true about the norms? What action preserves F★ while expanding future options?
 
 ---
+## IV. INSTITUTIONAL POWER: Banked Gc as Niche Architecture
 
-## IV. THE CAPTURE SPECTRUM: From Healthy to Distorted
+Institutional power is the form of power that operates through **durable structures** rather than moment-to-moment personal effort or direct relational coordination.
+
+In Trident-G terms, institutional power is **banked Gc at niche scale**: rules, roles, assets, procedures, platforms, laws, contracts, standards, credentials, reputations, datasets, property systems, governance routines and symbolic categories that continue to shape future G-loops after the original actors have stopped actively intervening.
+
+Individual power asks:
+
+```text
+Can I act effectively?
+```
+
+Relational power asks:
+
+```text
+Can we act together effectively?
+```
+
+Institutional power asks:
+
+```text
+What structures shape what action is possible before anyone chooses?
+```
+
+A strong institution does not merely coordinate people. It alters the niche so that some paths become easier to enter, some forms of feedback become visible, some risks are contained, some roles are stabilised, and some kinds of future action become repeatable.
+
+Institutional power is therefore not simply “having authority”. It is the capacity to **shape the action space** in which agents must operate.
+
+---
+
+### A. Core Institutional Power Principles
+
+| Principle                                      | TGT Mapping                  | Healthy Operation                                                             | Capture / Distortion                                           |
+| ---------------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| **Bank rules into roles**                      | Gc externalisation           | Stable roles reduce coordination cost and make contribution visible           | Role rigidity, status hierarchy, inherited entitlement         |
+| **Control feedback channels**                  | λ architecture               | Reality becomes legible: results, errors, risks and needs are visible         | Metric capture, surveillance, gaming the dashboard             |
+| **Define decision rights**                     | χ_group + boundary banking   | People know who decides what, at which scale, with what accountability        | Opaque authority, bottlenecks, blame-shifting                  |
+| **Create durable assets**                      | External Gc                  | Products, systems, datasets, audiences, infrastructure and processes compound | Asset capture, monopoly, dependency, rent extraction           |
+| **Set standards of proof**                     | MI target governance         | Claims must survive evidence, testing and public scrutiny                     | Ideological filtering, credentialism, truth capture            |
+| **Protect exit and voice**                     | F★ protection at group scale | Members can challenge, leave, renegotiate or refuse without destruction       | Coercion, dependency, reputational hostage-taking              |
+| **Stabilise trust without freezing change**    | η_group + χ_group            | People can rely on the structure while still updating it                      | Bureaucratic rigidity, ritual without learning                 |
+| **Preserve plural feedback**                   | λ diversity                  | Multiple reality channels prevent one captured signal from dominating         | Centralised epistemic control, echo chambers, platform lock-in |
+| **Reward the adaptive chain**                  | Vertical credit assignment   | Truth-telling, preparation, repair, coordination and judgement are reinforced | Only visible wins are rewarded; hidden labour is exploited     |
+| **Update institutions after prediction error** | G-loop re-coordination       | Failure becomes redesign, not scapegoating                                    | Defensive denial, institutional self-protection                |
+
+---
+
+### B. Generative, Extractive and Coercive Institutional Power
+
+Institutional power can expand 𝒢-volume, restrict it, or capture it.
+
+| Type                               | Trident-G Meaning                                                                    | Power Signature                                                               |
+| ---------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| **Generative institutional power** | Expands future viable action for many agents while protecting F★                     | More options, clearer roles, better feedback, safer experimentation           |
+| **Extractive institutional power** | One node expands its 𝒢-volume by narrowing another’s                                | Dependency, hidden cost transfer, unequal risk absorption                     |
+| **Coercive institutional power**   | Action is forced by threat to F★: money, safety, belonging, reputation, legal status | Compliance without genuine endorsement                                        |
+| **Capturing institutional power**  | The institution hijacks attention, reward, identity, status or meaning               | People serve the system while experiencing it as necessity, loyalty or virtue |
+| **Legitimate institutional power** | Authority remains λ-coupled, accountable, revisable and F★-protecting                | People accept constraint because it improves viable coordination              |
+
+The distinction is crucial. A structure can be powerful because it **supports agency**, or powerful because it **removes alternatives**.
+
+In Trident-G terms:
+
+```text
+Generative power expands shared 𝒢-volume.
+Extractive power transfers 𝒢-volume upward.
+Coercive power narrows F★ safety until compliance becomes the only viable path.
+Capturing power makes the narrowing feel chosen.
+```
+
+---
+
+### C. Institutional Capture
+
+Institutional capture occurs when a structure originally created to support adaptive action becomes self-protective.
+
+The institution begins by serving the G-loop:
+
+```text
+problem → structure → feedback → improvement
+```
+
+But over time it can invert:
+
+```text
+structure → self-preservation → distorted feedback → captured action
+```
+
+Common forms of institutional capture include:
+
+| Capture Form             | TGT Mechanism                                | Example Pattern                                                         |
+| ------------------------ | -------------------------------------------- | ----------------------------------------------------------------------- |
+| **Metric capture**       | λ collapses onto one proxy                   | The score becomes more important than the reality it was meant to track |
+| **Credential capture**   | Gc status replaces live competence           | The badge is trusted after the model has stopped updating               |
+| **Role capture**         | Role identity replaces adaptive contribution | People defend position rather than improve the shared loop              |
+| **Platform capture**     | Feedback and distribution are monopolised    | The agent must serve the platform to reach the niche                    |
+| **Narrative capture**    | Meaning niche becomes closed                 | Only institution-approved interpretations are thinkable                 |
+| **Bureaucratic capture** | Procedure replaces judgement                 | Compliance becomes safer than adaptive response                         |
+| **Dependency capture**   | Exit becomes too costly                      | The structure supports the agent while also trapping them               |
+
+The EQ signature of institutional capture is often ambiguous. It may feel like safety, belonging, loyalty, professionalism, duty or realism. But functionally it narrows viable action, weakens λ, suppresses prediction-error learning and prevents re-coordination.
+
+This is why institutional EQ readouts must be tested carefully. A structure may feel stable because it is genuinely trustworthy, or because alternatives have been made frightening, invisible or costly.
+
+---
+
+### D. Institutional Power and F★ Protection
+
+Healthy institutions protect the defended base of the agents inside them.
+
+At minimum, this means protecting:
+
+```text
+physical safety
+financial viability
+legal standing
+reputation
+attention bandwidth
+role dignity
+voice
+exit
+learning capacity
+future optionality
+```
+
+An institution that expands performance by consuming these bases is not generating power. It is borrowing against F★.
+
+This is the central institutional test:
+
+```text
+Does this structure make competent action more sustainable,
+or does it obtain output by silently transferring cost onto people?
+```
+
+A school, business, university, platform, partnership or state can all appear powerful because they produce visible results. But Trident-G asks whether those results are achieved through sustainable near-critical coordination or through hidden allostatic debt.
+
+---
+
+### E. Institutional Power and λ: Who Controls Reality Contact?
+
+λ is central to institutional power because institutions often determine which feedback counts.
+
+They decide:
+
+```text
+what is measured
+who is heard
+what evidence is admissible
+which outcomes matter
+which errors are visible
+which harms are externalised
+which successes are rewarded
+```
+
+High-λ institutions preserve contact with reality. They allow uncomfortable feedback to enter the system and update policy.
+
+Low-λ institutions become self-referential. They reward signals that confirm the institution’s own model and suppress signals that would require re-coordination.
+
+A powerful institution should therefore maintain multiple feedback channels:
+
+```text
+internal data
+external users
+front-line reports
+dissenting voices
+delayed outcomes
+failure reviews
+ethical boundaries
+independent audit
+```
+
+Without plural feedback, institutional power becomes epistemically brittle. It may still dominate behaviour, but it no longer learns.
+
+---
+
+### F. Institutional Power and χ: Coherence Without Uniformity
+
+χ_group is the integration quality of the shared generative model. Institutions need enough χ to coordinate action, but not so much enforced sameness that the system loses adaptive range.
+
+Healthy institutional χ means:
+
+```text
+shared language
+clear roles
+known decision rights
+visible standards
+repair routines
+boundary conditions
+transparent escalation paths
+```
+
+Unhealthy χ takes two opposite forms.
+
+Too little χ produces fragmentation:
+
+```text
+role confusion
+duplicated effort
+unclear ownership
+unresolved contradiction
+quiet resentment
+decision paralysis
+```
+
+Too much imposed χ produces rigidity:
+
+```text
+groupthink
+ritual compliance
+punished dissent
+over-standardisation
+loss of local intelligence
+```
+
+The institutional aim is not total unity. It is **coherent plurality**: enough shared model to act together, enough internal diversity to detect error and adapt.
+
+---
+
+### G. Institutional Power and η_group
+
+Institutions build or destroy collective meta-efficacy.
+
+η_group increases when people repeatedly experience:
+
+```text
+we can act together
+reality responds
+failure can be repaired
+truth can be spoken
+roles are clear
+effort becomes structure
+the system learns
+```
+
+η_group decreases when people learn:
+
+```text
+nothing changes
+feedback is punished
+decisions are opaque
+visible effort is exploited
+success is stolen
+failure is blamed downward
+exit is dangerous
+```
+
+This matters because institutional morale is not merely “culture”. It is a prediction about collective controllability. A low-η institution may still function, but only through coercion, habit, fear or external reward. A high-η institution can enter uncertainty without immediately fragmenting or locking into defensive routines.
+
+---
+
+### H. Institutional Power as Deep Gc
+
+The deepest institutional power comes from structures that continue to improve future G-loops.
+
+These include:
+
+```text
+clear operating principles
+decision protocols
+trusted standards
+training systems
+repair rituals
+knowledge bases
+public evidence records
+contract templates
+reputation systems
+ethical boundaries
+shared dashboards
+platforms
+governance mechanisms
+```
+
+These are not just administrative tools. They are **externalised cognitive structure**.
+
+They reduce the cost of future action by answering recurring questions in advance:
+
+```text
+Who decides?
+What counts as evidence?
+What must not be damaged?
+What feedback matters?
+What happens when something fails?
+What is the escalation route?
+What can be reused?
+What should be stopped?
+```
+
+A powerful institution is therefore a Gc architecture: it banks past learning into structures that make future action more intelligent.
+
+---
+
+### I. Institutional Power Tests
+
+A structure has healthy institutional power if it passes these tests:
+
+```text
+Does it expand viable action rather than merely force compliance?
+Does it protect the F★ of the people inside it?
+Does it preserve real feedback, including inconvenient feedback?
+Does it make roles, rights, responsibilities and risks visible?
+Does it bank learning into reusable structure?
+Does it allow repair after failure?
+Does it preserve exit and voice?
+Does it reward the adaptive chain, not just the final result?
+Does it remain revisable when prediction error accumulates?
+Does it create more future 𝒢-volume than it consumes?
+```
+
+The simplest test is:
+
+```text
+If this institution became more powerful,
+would more people become more capable, more truthful, more coordinated and more free?
+Or would more people become more dependent, more silent, more replaceable and more captured?
+```
+
+---
+
+### J. TGT Insight
+
+Institutional power is **slow Gc at social scale**.
+
+It is what happens when repeated G-loops become roles, rules, norms, platforms, laws, assets and shared models. At its best, institutional power protects F★, improves λ, stabilises χ, builds η_group and expands shared 𝒢-volume.
+
+At its worst, institutional power captures the niche, monopolises feedback, narrows exit, converts living judgement into rigid procedure, and makes reduced agency feel normal.
+
+The goal is not to reject institutional power. The goal is to design institutions that remain **λ-coupled, F★-protecting, prediction-error-sensitive and re-coordination-capable**.
+
+In compact form:
+
+```text
+Good institutions bank intelligence.
+Bad institutions bank capture.
+Power depends on which one the structure makes easier.
+```
+
+
+## V. THE CAPTURE SPECTRUM: From Healthy to Distorted
 
 Every principle has a **healthy motivation** and a **capture/distortion**. This is the TGT view: the same mechanism that enables power can hijack it. The Ψ-band is narrow. Drift too far toward subcritical rigidity (over-control) or supercritical chaos (over-expansion), and the principle inverts.
 
@@ -206,7 +542,7 @@ Every principle has a **healthy motivation** and a **capture/distortion**. This 
 
 ---
 
-## V. THE POWER CYCLE: How Principles Interact
+## VI. THE POWER CYCLE: How Principles Interact
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -276,7 +612,7 @@ Every principle has a **healthy motivation** and a **capture/distortion**. This 
 
 ---
 
-## VI. COMPACT REFERENCE: All 31 Principles by Domain
+## VII. COMPACT REFERENCE: All 31 Principles by Domain
 
 ### Individual Power (16 principles)
 
@@ -299,7 +635,7 @@ Every principle has a **healthy motivation** and a **capture/distortion**. This 
 
 ---
 
-## VII. THE TRIDENT-G DEFINITION OF POWER
+## VIII. THE TRIDENT-G DEFINITION OF POWER
 
 > **Power is the capacity to maintain viable near-critical operation while expanding future action space, improving coupling to reality, banking what survives as reusable structure, and resisting capture by external or internal control loops. Its subjective signature is felt agency: the world becomes more navigable, meaningful, recoverable and mine.**
 
