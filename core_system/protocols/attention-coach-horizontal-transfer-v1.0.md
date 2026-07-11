@@ -57,15 +57,16 @@ The live Attention Coach implementation checked on 2026-07-11 contains:
 - atomic wrappers `arrow_abs`, `flow_abs`, `arrow_rel`, and `flow_rel`
 - phases for diagnostic probe, transition probe, expected dip, recovery, return-to-base, progressive mix, held-out composition, full-factorial mix, delayed re-check, portable state, and maintenance mix
 - trial telemetry for wrapper, carrier, frame, probe status, mix ratio, transfer event id, exposure timing, response, correctness, and timing quality
-- held-out exposure protection for `flow_rel` in clean users
+- deterministic cohort assignment for clean v1 users, with approximately 10% assigned to the optic-flow-first validation path and the remainder assigned to arrows-first paths
+- path-aware held-out exposure protection for the cohort-specific held-out wrapper
+- persisted `startCarrier`, `startCohort`, `startWrapper`, `carrierTargetWrapper`, `frameTargetWrapper`, `heldOutWrapper`, and `heldOutStatus` fields for Supabase-backed aggregate analysis
 - local-first data rights with optional cloud sync and benchmark contribution
 
-Current implementation gap against the canonical protocol:
+Current implementation note:
 
-- The updated canonical method requires 10-15% of clean v1 users to start optic-flow-first for transfer-baseline counterbalancing.
-- The current live Attention Coach code initializes clean users as arrows-first with `arrow_abs` as the base wrapper and `flow_rel` as the held-out composition.
-- The live state does not yet persist `startCarrier`, `startWrapper`, `carrierTargetWrapper`, `frameTargetWrapper`, or cohort-specific `heldOutWrapper` fields.
-- Therefore the current app implements the arrows-first horizontal-transfer pathway, not yet the full counterbalanced canonical protocol.
+- The source and deployed bundle now implement the required 10-15% counterbalanced optic-flow-first start-carrier cohort.
+- Supabase schema support is required for the new cohort/path fields before cloud benchmark records can preserve the full counterbalancing metadata.
+- Transfer comparisons should be estimated against aggregated population-level benchmark pools stratified by protocol group, start cohort, and wrapper path. They should not be interpreted as direct individual-to-individual comparisons.
 
 ## 4) Task Family
 
@@ -120,9 +121,9 @@ The 60 Attention Control trials are organised as three 20-trial mini-blocks. The
 
 Trial difficulty varies by majority ratio and exposure duration. The app records requested and actual exposure timing, estimated display refresh rate, dropped-frame count, response accuracy, reaction time, and timing-quality flags.
 
-## 7) Arrows-First Progression Implemented Live
+## 7) Counterbalanced Progressions Implemented Live
 
-The current live app follows the arrows-first path.
+Most clean v1 users follow the arrows-first path.
 
 ```text
 1. arrow_abs base fluency
@@ -142,7 +143,27 @@ The current live app follows the arrows-first path.
 15. portable or maintenance mix
 ```
 
-The held-out event is the first formal exposure to `flow_rel` for clean arrows-first users. Free-play or other non-formal exposure to `flow_rel` before that event contaminates clean held-out status.
+The counterbalanced validation cohort follows the optic-flow-first mirror path.
+
+```text
+1. flow_abs base fluency
+2. optional small arrow_abs diagnostic probe
+3. base flattening gate
+4. 20% flow_abs + arrow_abs transition probe
+5. expected first-contact dip
+6. arrow_abs recovery
+7. return-to-base flow_abs check
+8. progressive flow_abs + arrow_abs mix: 80/20, 60/40, 50/50, random
+9. flow_rel recovery
+10. progressive flow_abs + flow_rel mix
+11. held-out arrow_rel composition probe
+12. arrow_rel recovery
+13. full-factorial mix across all four wrappers
+14. delayed mixed re-check
+15. portable or maintenance mix
+```
+
+The held-out event is the first formal exposure to the cohort-specific held-out recombination wrapper. For arrows-first users this is `flow_rel`; for optic-flow-first users this is `arrow_rel`. Free-play or other non-formal exposure to the held-out wrapper before that event contaminates clean held-out status.
 
 ## 8) Advancement Gates
 
@@ -226,6 +247,13 @@ The app is local-first. Users can keep data in the browser, enable cloud persona
 Research exports or analyses should preserve at minimum:
 
 - protocol version
+- protocol group
+- start carrier
+- start cohort
+- start wrapper
+- carrier-target wrapper
+- frame-target wrapper
+- held-out wrapper
 - transfer controller phase
 - phase label and phase status
 - wrapper id
@@ -239,6 +267,8 @@ Research exports or analyses should preserve at minimum:
 - held-out status
 - legacy or contamination status
 - data mode and benchmark consent state
+
+Benchmark comparisons should be calculated only from consented aggregate population-level records. The counterbalanced design allows researchers to estimate transfer effects more cleanly by comparing matched cohort/path benchmark pools, reducing confounding from generic practice effects, task familiarity, and first-wrapper advantage.
 
 ## 11) Interpretation Boundaries
 
@@ -272,8 +302,8 @@ trident-g-platform/products/trident-g-iq/websites/iqmindware/attention-coach/ind
 The deployed app bundle referenced by the live static index at the time of review was:
 
 ```text
-/attention-coach/assets/index-D7seEu6f.js
+/attention-coach/assets/index-DtRjOMFE.js
 /attention-coach/assets/index-B9VaHg_T.css
 ```
 
-The current app protocol should be updated after the optic-flow-first cohort is implemented, because the canonical shared protocol now requires a 10-15% counterbalanced start-carrier group.
+The live protocol state should be rechecked whenever the transfer controller version, cohort assignment rule, Supabase schema, or deployed bundle changes.
